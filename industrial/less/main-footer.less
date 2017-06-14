@@ -4,11 +4,13 @@
     font-size: 24px;
   }
 }
+
 .main-footer__nav {
   margin-bottom: 30px;
 }
+
 .main-footer__item {
-  position:  relative;
+  position: relative;
   margin-right: 35px;
   &:not(:first-child)::before {
     content: '';
@@ -21,6 +23,24 @@
     background-color: #9aa5a9;
   }
 }
+
 .main-footer__copyright {
   font-size: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .main-footer__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .main-footer__item {
+    margin-right: 0;
+    margin-bottom: 35px;
+    &:not(:first-child)::before {
+      top: -22px;
+      left: 50%;
+    }
+  }
 }
