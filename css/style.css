@@ -1,0 +1,62 @@
+div,
+body,
+html,
+p,
+input,
+label,
+form,
+button,
+nav,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+main,
+header,
+aside,
+section,
+footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button:focus,
+input:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  font-size: 0;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+.portfolio__title {
+  margin-bottom: 100px;
+}
+.portfolio__content {
+  max-width: 1200px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.portfolio__project {
+  display: block;
+  width: 200px;
+  height: 300px;
+}
