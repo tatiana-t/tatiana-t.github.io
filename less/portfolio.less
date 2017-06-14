@@ -8,12 +8,22 @@ body {
 }
 .portfolio__content {
   max-width: 1200px;
+  margin:0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
 }
 .portfolio__project {
-  display: block;
-  width: 200px;
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.porfolio__image {
+  width: 300px;
+}
+.porfolio__capture {
+  text-align: center;
 }

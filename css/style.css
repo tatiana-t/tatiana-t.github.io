@@ -6,6 +6,8 @@ input,
 label,
 form,
 button,
+figure,
+figcapture,
 nav,
 ul,
 li,
@@ -38,6 +40,9 @@ li {
   display: inline-block;
   font-size: 0;
 }
+figure {
+  font-size: 0;
+}
 body {
   font-family: sans-serif;
   text-align: center;
@@ -48,15 +53,31 @@ body {
 }
 .portfolio__content {
   max-width: 1200px;
+  margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 .portfolio__project {
-  display: block;
-  width: 200px;
-  height: 300px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.porfolio__image {
+  width: 300px;
+}
+.porfolio__capture {
+  text-align: center;
 }
