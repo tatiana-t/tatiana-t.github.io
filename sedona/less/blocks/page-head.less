@@ -1,0 +1,32 @@
+.page-head {
+  text-align: center;
+}
+
+.page-head__logo {
+  position: relative;
+  z-index: 2;
+  margin-bottom: -25px;
+  display: block;
+  line-height: 0;
+}
+
+@media @tablet-widths {
+  .page-head {
+    position: relative;
+  }
+  .page-head__logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -50px;
+  }
+}
+
+@media @desktop-widths {
+  .page-head__logo {
+    margin-left: -93px;
+    img {
+      width: 184px;
+    }
+  }
+}

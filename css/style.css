@@ -6,6 +6,8 @@ input,
 label,
 form,
 button,
+figure,
+figcapture,
 nav,
 ul,
 li,
@@ -38,6 +40,9 @@ li {
   display: inline-block;
   font-size: 0;
 }
+figure {
+  font-size: 0;
+}
 body {
   font-family: sans-serif;
   text-align: center;
@@ -47,16 +52,54 @@ body {
   margin-bottom: 100px;
 }
 .portfolio__content {
-  max-width: 1200px;
+  max-width: 1360px;
+  margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: stretch;
+      align-items: stretch;
 }
 .portfolio__project {
-  display: block;
-  width: 200px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
   height: 300px;
+}
+.porfolio__image {
+  width: 400px;
+  overflow-y: scroll;
+}
+.portfolio__pic {
+  width: 100%;
+  overflow-y: scroll;
+}
+.porfolio__capture {
+  text-align: center;
+  position: relative;
+}
+.htmlacademy::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: -25px;
+  background-image: url('../img/htmlacademy.svg');
+  background-repeat: no-repeat;
+  background-position: ;
+  background-size: cover;
+}
+.htmlacademy::before:hover {
+  content: 'Макет из рассылки htmlacademy';
 }

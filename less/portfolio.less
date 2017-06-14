@@ -7,13 +7,52 @@ body {
   margin-bottom: 100px;
 }
 .portfolio__content {
-  max-width: 1200px;
+  max-width: 1360px;
+  margin: 0 auto;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
 }
 .portfolio__project {
-  display: block;
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   height: 300px;
+  
+}
+.porfolio__image {
+  width: 400px;
+  overflow-y: scroll;
+}
+.portfolio__pic {
+  width: 100%;
+  overflow-y: scroll;
+}
+.porfolio__capture {
+  text-align: center;
+  position: relative;
+}
+.porfolio__capture.htmlacademy:hover {
+  &::after {
+    
+  }
+}
+.htmlacademy::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: -25px;
+  background-image: url('../img/htmlacademy.svg');
+  background-repeat: no-repeat;
+  background-position: ;
+  background-size: cover;
+  &:hover {
+    content: 'Макет из рассылки htmlacademy';
+  }
 }

@@ -1,0 +1,40 @@
+/*Css reset*/
+html, body, div, span, iframe,
+h1, h2, h3, p, blockquote,
+a, img, sub, sup, ul, li,
+fieldset, label, picture,
+article,  footer, header,
+nav, section, video, input,
+textarea, figure, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  outline: 0;
+  user-select: none;
+  &:focus {
+    outline: 0;
+  }
+}
+input,
+textarea {
+  &:hover, &:focus, &:active {
+    border: 0;
+    outline: 0;
+  }
+}
+img, figure, picture {
+  font-size: 0;
+  line-height: 0;
+}
+fieldset {
+  margin-start: 0;
+  margin-end: 0;
+  padding-before: 0;
+  padding-start: 0;
+  padding-end: 0;
+  padding-after: 0;
+}

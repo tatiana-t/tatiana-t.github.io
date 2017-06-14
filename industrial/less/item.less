@@ -106,9 +106,37 @@
   padding: 0;
   padding-top: 250px;
   background-image: url('../img/P9-Signature-product.jpg');
-  padding-top: auto;
+  padding: 30px;
+  padding-top: 250px;
 }
 
 .item--dr {
   background-image: url('../img/DR-II-product.jpg');
+}
+
+@media screen and (max-width: 320px) {
+  .item {
+    width: 100%;
+  }
+  .item--gina {
+    padding: 30px;
+    background-position: 97% 98%, center;
+    background-size: 20%, cover;
+    .item__title {
+      font-size: 48px;
+      margin-bottom: 60px;
+    }
+    .item__text {
+      font-size: 24px;
+      margin-bottom: 60px;
+    }
+  }
+}
+@media screen and (max-width: 780px) {
+  .item--half {
+    width: 100%;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
 }
