@@ -74,10 +74,32 @@ body {
       justify-content: flex-start;
   -ms-flex-align: center;
       align-items: center;
+  max-height: 600px;
 }
 .porfolio__image {
   width: 300px;
+  overflow-y: scroll;
+}
+.portfolio__pic {
+  width: 100%;
+  overflow-y: scroll;
 }
 .porfolio__capture {
   text-align: center;
+  position: relative;
+}
+.htmlacademy::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: -25px;
+  background-image: url('../img/htmlacademy.svg');
+  background-repeat: no-repeat;
+  background-position: ;
+  background-size: cover;
+}
+.htmlacademy::before:hover {
+  content: 'Макет из рассылки htmlacademy';
 }
