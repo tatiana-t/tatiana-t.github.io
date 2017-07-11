@@ -1,0 +1,86 @@
+yes
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   fonts/FuturisCyrillic.woff
+#	new file:   fonts/futuris-cyrillic.ttf
+#	new file:   fonts/futuris-cyrillic.woff2
+#	new file:   fonts/onlinefontconverter.com.zip
+#	new file:   fonts/onlinefontconverter.com/README.txt
+#
+# Untracked files:
+#	gift-shop/img/checkout.svg
+#	gift-shop/img/chose-product.svg
+#	gift-shop/img/featured1.jpg
+#	gift-shop/img/featured3.jpg
+#	gift-shop/img/icon-arrow.svg
+#	gift-shop/img/icon-cart.png
+#	gift-shop/img/icon-facebook.svg
+#	gift-shop/img/icon-flickr.png
+#	gift-shop/img/icon-gift.png
+#	gift-shop/img/icon-google.svg
+#	gift-shop/img/icon-rss.svg
+#	gift-shop/img/icon-search.svg
+#	gift-shop/img/icon-twitter.svg
+#	gift-shop/img/jewelry.jpg
+#	gift-shop/img/logo.png
+#	gift-shop/img/register.svg
+#	sedona/img/bg-back-desktop@1x.jpg
+#	sedona/img/bg-back-desktop@2x.jpg
+#	sedona/img/bg-back-mobile@1x.jpg
+#	sedona/img/bg-back-mobile@2x.jpg
+#	sedona/img/bg-back-tablet@1x.jpg
+#	sedona/img/bg-back-tablet@2x.jpg
+#	sedona/img/bg-map-desktop@1x.jpg
+#	sedona/img/bg-map-desktop@2x.jpg
+#	sedona/img/bg-map-mobile@1x.jpg
+#	sedona/img/bg-map-mobile@2x.jpg
+#	sedona/img/bg-map-tablet@1x.jpg
+#	sedona/img/bg-map-tablet@2x.jpg
+#	sedona/img/photo-1-desktop@1x.jpg
+#	sedona/img/photo-1-desktop@2x.jpg
+#	sedona/img/photo-1-mobile@1x.jpg
+#	sedona/img/photo-1-mobile@2x.jpg
+#	sedona/img/photo-1-tablet@1x.jpg
+#	sedona/img/photo-1-tablet@2x.jpg
+#	sedona/img/photo-2-desktop@1x.jpg
+#	sedona/img/photo-2-desktop@2x.jpg
+#	sedona/img/photo-2-mobile@1x.jpg
+#	sedona/img/photo-2-mobile@2x.jpg
+#	sedona/img/photo-2-tablet@1x.jpg
+#	sedona/img/photo-2-tablet@2x.jpg
+#	sedona/img/photo-3-desktop@1x.jpg
+#	sedona/img/photo-3-desktop@2x.jpg
+#	sedona/img/photo-3-mobile@1x.jpg
+#	sedona/img/photo-3-mobile@2x.jpg
+#	sedona/img/photo-3-tablet@1x.jpg
+#	sedona/img/photo-3-tablet@2x.jpg
+#	sedona/img/photo-4-desktop@1x.jpg
+#	sedona/img/photo-4-desktop@2x.jpg
+#	sedona/img/photo-4-mobile@1x.jpg
+#	sedona/img/photo-4-mobile@2x.jpg
+#	sedona/img/photo-4-tablet@1x.jpg
+#	sedona/img/photo-4-tablet@2x.jpg
+#	sedona/img/photo-bridge-mobile@1x.jpg
+#	sedona/img/photo-bridge-mobile@2x.jpg
+#	sedona/img/photo-bridge-tablet@1x.jpg
+#	sedona/img/photo-bridge-tablet@2x.jpg
+#	sedona/img/photo-bridge@1x.jpg
+#	sedona/img/photo-bridge@2x.jpg
+#	sedona/img/photo-city-mobile@1x.jpg
+#	sedona/img/photo-city-mobile@2x.jpg
+#	sedona/img/photo-city-tablet@1x.jpg
+#	sedona/img/photo-city-tablet@2x.jpg
+#	sedona/img/photo-city@1x.jpg
+#	sedona/img/photo-city@2x.jpg
+#	sedona/img/video-desktop@1x.jpg
+#	sedona/img/video-desktop@2x.jpg
+#	sedona/img/video-mobile@1x.jpg
+#	sedona/img/video-mobile@2x.jpg
+#	sedona/img/video-tablet@1x.jpg
+#	sedona/img/video-tablet@2x.jpg
+#
