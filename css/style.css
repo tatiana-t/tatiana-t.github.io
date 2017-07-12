@@ -53,9 +53,9 @@ body {
   font-family: Futura;
   padding: 80px 0 50px 0;
   min-height: 100vh;
-  color: #6c6868;
-  max-width: 1360px;
+  color: #fff;
   margin: 0 auto;
+  background-color: #121212;
 }
 .portfolio__header-group {
   padding-left: 55px;
@@ -76,21 +76,23 @@ body {
 }
 .portfolio__title {
   font-size: 56px;
-  color: #6c6868;
+  color: #eaeaea;
 }
 .portfolio__content {
-  padding-left: 55px;
-  padding-right: 55px;
+  /* padding-left: 55px;
+  padding-right: 55px; */
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: stretch;
+      justify-content: stretch;
   -ms-flex-align: stretch;
       align-items: stretch;
+  font-size: 0;
+  line-height: 0;
 }
 .portfolio__project {
   display: -ms-flexbox;
@@ -99,11 +101,13 @@ body {
       flex-direction: column;
   -ms-flex-pack: start;
       justify-content: flex-start;
-  -ms-flex-align: center;
-      align-items: center;
-  margin-bottom: 50px;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  margin-bottom: 0;
   position: relative;
   z-index: 2;
+  width: 100%;
+  height: 200px;
   /* &::after {
     content: '';
     display: block;
@@ -117,12 +121,13 @@ body {
     border-radius: 10px; }*/
 }
 .porfolio__image {
-  width: 400px;
-  overflow-y: scroll;
-  height: 245px;
-  margin-bottom: 20px;
-  border: 2px solid #94939d;
-  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  margin-bottom: 0;
+  /* border: 2px solid #94939d;
+  border-radius: 7px; */
+  filter: brightness(0.3);
 }
 .porfolio__image::-webkit-scrollbar {
   width: 0;
@@ -130,15 +135,22 @@ body {
 .porfolio__image::-moz-scrollbar {
   width: 0;
 }
+.porfolio__image:hover {
+  filter: brightness(1);
+}
 .portfolio__pic {
   width: 100%;
   overflow-y: scroll;
-  position: relative;
   z-index: 2;
+  position: relative;
+  top: -270px;
 }
 .porfolio__capture {
   text-align: center;
   position: relative;
+  z-index: 3;
+  bottom: 50px;
+  font-size: 14px;
 }
 .htmlacademy::before {
   content: '';
