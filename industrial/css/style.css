@@ -64,8 +64,8 @@ h3 {
 }
 .container {
   max-width: 1160px;
-  padding-right: 100px;
-  padding-left: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
   margin: 0 auto;
   box-sizing: content-box;
   display: -ms-flexbox;
@@ -271,7 +271,7 @@ h3 {
   margin: 0 auto;
   color: #9aa5a9;
   padding: 0;
-  margin-bottom: 100px;
+  margin-top: 40px;
   text-align: center;
   display: -ms-flexbox;
   display: flex;
@@ -313,6 +313,9 @@ h3 {
 .main-footer a {
   font-size: 24px;
 }
+.main-footer nav {
+  margin: 0 auto;
+}
 .main-footer__nav {
   margin-bottom: 30px;
 }
@@ -332,6 +335,7 @@ h3 {
 }
 .main-footer__copyright {
   font-size: 18px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 320px) {
   .main-footer__nav {
