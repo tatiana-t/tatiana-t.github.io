@@ -16,10 +16,11 @@
   &::before {
     position: absolute;
     content: '';
-    bottom: 0;
-    left: -5px;
-    width: 325px;
-    height: 27px;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    
+    height: 30px;
     background-image: url(../img/bg-intro-triangle-mobile.svg);
     background-size: 105%;
     background-repeat: no-repeat;
@@ -126,7 +127,8 @@
     &::before {
       background-image: url('../img/bg-intro-triangle-desktop.svg');
       background-size: 102%;
-      height: 65px;
+      bottom: -1px;
+    //  height: 65px;
     }
     background-image: url('../img/bg-back-desktop@1x.jpg');
     background-size: 100%;
