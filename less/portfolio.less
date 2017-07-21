@@ -89,15 +89,17 @@ body {
   position: relative;
   z-index: 2;
   position: relative;
-  top: -270px;
+  top: -190px;
 }
 
 .porfolio__capture {
   text-align: center;
   position: relative;
   z-index: 3;
-  bottom: 50px;
-  font-size: 14px;
+  bottom: 110px;
+  font-size: 54px;
+  font-weight: 700;
+  align-self: center;
 }
 
 .porfolio__capture.htmlacademy:hover {
@@ -118,4 +120,47 @@ body {
   &:hover {
     content: 'Макет из рассылки htmlacademy';
   }
+}
+
+.portfolio__btns {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  
+  bottom: 15px;
+  z-index: 3;
+}
+
+.portfolio__button {
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  width: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  
+  //background-color: rgba(255, 255, 255, 0.32);
+  color: #0b166c;
+  font-size: 18px;
+  line-height: 1em;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  &:first-child {
+    margin-right: 20px;
+  }
+  &:hover {
+    
+  }
+}
+.portfolio__button--git {
+  background-image: url('../img/github-white.png');
+  
+}
+.portfolio__button--page {
+  background-image: url('');
 }

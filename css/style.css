@@ -143,14 +143,18 @@ body {
   overflow-y: scroll;
   z-index: 2;
   position: relative;
-  top: -270px;
+  top: -190px;
 }
 .porfolio__capture {
   text-align: center;
   position: relative;
   z-index: 3;
-  bottom: 50px;
-  font-size: 14px;
+  bottom: 110px;
+  font-size: 54px;
+  font-weight: 700;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 .htmlacademy::before {
   content: '';
@@ -166,4 +170,43 @@ body {
 }
 .htmlacademy::before:hover {
   content: 'Макет из рассылки htmlacademy';
+}
+.portfolio__btns {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: absolute;
+  bottom: 15px;
+  z-index: 3;
+}
+.portfolio__button {
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  width: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #0b166c;
+  font-size: 18px;
+  line-height: 1em;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.portfolio__button:first-child {
+  margin-right: 20px;
+}
+.portfolio__button--git {
+  background-image: url('../img/github-white.png');
+}
+.portfolio__button--page {
+  background-image: url('');
 }
