@@ -1,0 +1,36 @@
+div,
+body,
+html,
+p, input, label, form, button,
+nav, ul, li, 
+h1, h2, h3, h4,
+main, header, aside, section, footer, span {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button, input {
+  &:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline: none;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+li {
+  display: inline-block;
+  font-size: 0;
+  a {
+    font-size: 16px;
+  }
+}
+
+
