@@ -245,7 +245,7 @@
           </ul>
         </li>
         <li class="menu-item">More</li>
-        
+
       </ul>
     </nav>
     <!--  end main-menu  -->
@@ -253,59 +253,64 @@
 
 
   <section class="promo">
-    <div class="promo__row">
-      <div class="promo__item">
-        <div class="promo-item__info">
-          <h2 class="promo-item__title">men's wear</h2>
-          <div class="promo-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</div>
-        </div>
-        <div class="promo-item__accent">Lorem Ipsum is simply </div>
+
+    <div class="promo__item promo__item--left-top">
+      <img class="promo__pic" src="img/men.jpg" alt="Men's wear" width="670">
+      <div class="promo-item__info">
+        <h2 class="promo-item__title">men's wear</h2>
+        <div class="promo-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</div>
       </div>
-      <div class="promo__item">
-        <div class="promo-item__info">
-          <h2 class="promo-item__title">women's wear</h2>
-          <div class="promo-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting</div>
-        </div>
-      </div>
-      <div class="promo__item">
-        <div class="promo-item__btns action-btns action-btns--kids">
-          <div class="action-btns__name"></div>
-          <div class="action-btns__gift">
-            <span class="action-btns__desc">Make a present</span>
-          </div>
-          <div class="action-btns__cart">
-            <span class="action-btns__desc">Add to cart</span>
-          </div>
-          <div class="action-btns__price"></div>
-        </div>
+      <div class="promo-item__accent">Lorem Ipsum is simply </div>
+    </div>
+    <div class="promo__item promo__item--right-top">
+      <img class="promo__pic" src="img/women.jpg" alt="Women's wear" width="490" height="320">
+      <div class="promo-item__info">
+        <h2 class="promo-item__title">women's wear</h2>
+        <div class="promo-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting</div>
       </div>
     </div>
-    <div class="promo__row">
-      <form class="promo__item promo__item--search">
-        <input type="text" id="promo-item__search" name="promo-item__search" placeholder="Search you product here">
-        <label class="promo-item__label" for="promo-item__search"></label>
-      </form>
-
-      <div class="promo__item">
-        <div class="promo-item__btns action-btns action-btns--crafts">
-          <div class="action-btns__name"></div>
-          <div class="action-btns__gift">
-            <span class="action-btns__desc">Make a present</span>
-          </div>
-          <div class="action-btns__cart">
-            <span class="action-btns__desc">Add to cart</span>
-          </div>
-          <div class="action-btns__price"></div>
+    <div class="promo__item promo__item--right-mid">
+      <img class="promo__pic" src="img/kids.jpg" alt="Kids' wear" width="490" height="245">
+      <div class="promo-item__btns action-btns action-btns--kids">
+        <div class="action-btns__name"></div>
+        <div class="action-btns__gift">
+          <span class="action-btns__desc">Make a present</span>
         </div>
-      </div>
-
-      <div class="promo__item">
-        <div class="promo-item__info">
-          <h2 class="promo-item__title promo-item__title--jewelry"></h2>
-          <div class="promo-item__more-btn"></div>
+        <div class="action-btns__cart">
+          <span class="action-btns__desc">Add to cart</span>
         </div>
+        <div class="action-btns__price"></div>
       </div>
     </div>
+
+
+    <form class="promo__item promo__item--search">
+      <input class="promo__search-input" type="text" id="promo-item__search" name="promo-item__search" placeholder="Search you product here (e.g.:Silver diamond ring)">
+      <label class="promo-item__label" for="promo-item__search"></label>
+    </form>
+
+    <div class="promo__item promo__item--left-bottom">
+      <img class="promo__pic" src="img/crafts.jpg" alt="Crafts">
+      <div class="promo-item__btns action-btns action-btns--crafts">
+        <div class="action-btns__name"></div>
+        <div class="action-btns__gift">
+          <span class="action-btns__desc">Make a present</span>
+        </div>
+        <div class="action-btns__cart">
+          <span class="action-btns__desc">Add to cart</span>
+        </div>
+        <div class="action-btns__price"></div>
+      </div>
+    </div>
+
+    <div class="promo__item promo__item--right-bottom">
+      <img class="promo__pic" src="img/jewelry.jpg" alt="Jewerly" width="490" height="510">
+      <div class="promo-item__info">
+        <h2 class="promo-item__title promo-item__title--jewelry"></h2>
+        <div class="promo-item__more-btn"></div>
+      </div>
+    </div>
+
   </section>
 
   <main class="main-content">
@@ -314,119 +319,128 @@
       <header class="main-content__header">
         <h3 class="main-content__title">New Products</h3>
         <div class="main-content__btns">
-          <div class="main-content__left-arrow"></div>
-          <div class="main-content__right-arrow"></div>
+          <div class="main-content__arrow main-content__arrow--left"></div>
+          <div class="main-content__arrow main-content__arrow--right"></div>
         </div>
       </header>
-      <div class="new__item"></div>
-      <div class="new__item">
-        <div class="action-btns action-btns--kids">
-          <div class="action-btns__name"></div>
-          <div class="action-btns__gift">
-            <span class="action-btns__desc">Make a present</span>
+      <div class="main-content__row">
+        <div class="new__item">
+          <img src="img/new-bag.jpg" alt="Bag-shop">
+        </div>
+        <div class="new__item">
+          <img src="img/new-baby-shop.jpg" alt="Baby-shop">
+          <div class="action-btns action-btns--kids">
+            <div class="action-btns__name"></div>
+            <div class="action-btns__gift">
+              <span class="action-btns__desc">Make a present</span>
+            </div>
+            <div class="action-btns__cart">
+              <span class="action-btns__desc">Add to cart</span>
+            </div>
+            <div class="action-btns__price"></div>
           </div>
-          <div class="action-btns__cart">
-            <span class="action-btns__desc">Add to cart</span>
-          </div>
-          <div class="action-btns__price"></div>
+        </div>
+        <div class="new__item">
+          <img src="img/new-watch.jpg" alt="Watch-shop">
         </div>
       </div>
-      <div class="new__item"></div>
     </section>
 
     <section class="main-content__item main-content__item--featured featured">
       <header class="main-content__header">
         <h3 class="main-content__title">Featured Products</h3>
         <div class="main-content__btns">
-          <div class="main-content__left-arrow"></div>
-          <div class="main-content__right-arrow"></div>
+          <div class="main-content__arrow main-content__arrow--left"></div>
+          <div class="main-content__arrow main-content__arrow--right"></div>
         </div>
       </header>
-      <article class="featured__item featured__item--discount">
-        <img class="featured__pic" src="" alt="">
-        <div class="featured__note"></div>
-        <div class="featured__info">
-          <div class="featured__line">
-            <h1 class="featured__title">Product Title here</h1>
-            <p class="featured__desc">Short Description here</p>
-          </div>
-          <div class="featured__line action-btns action-btns--featured">
-            <div class="action-btns__turn"></div>
-            <div class="action-btns__gift">
-              <span class="action-btns__desc">Make a present</span>
+      <div class="main-content__row">
+        <article class="featured__item">
+          <img class="featured__pic" src="img/featured1.jpg" alt="Featured Dress 1" width="270">
+          <div class="featured__note featured__note--discount">20% OFF</div>
+          <div class="featured__info">
+            <div class="featured__line">
+              <h1 class="featured__title">Product Title here</h1>
+              <p class="featured__desc">Short Description here</p>
             </div>
-            <div class="action-btns__cart">
-              <span class="action-btns__desc">Add to cart</span>
+            <div class="featured__line action-btns action-btns--featured">
+              <div class="action-btns__button action-btns__turn"></div>
+              <div class="action-btns__button action-btns__gift">
+                <!--   <span class="action-btns__desc">Make a present</span>-->
+              </div>
+              <div class="action-btns__button action-btns__cart">
+                <!-- <span class="action-btns__desc">Add to cart</span>-->
+              </div>
+              <div class="action-btns__button action-btns__price">$99.00</div>
             </div>
-            <div class="action-btns__price">$99.00</div>
-          </div>
 
-        </div>
-      </article>
-
-      <article class="featured__item">
-        <img class="featured__pic" src="" alt="">
-        <div class="featured__info">
-          <div class="featured__line">
-            <h1 class="featured__title">Product Title here</h1>
-            <p class="featured__desc">Short Description here</p>
           </div>
-          <div class="featured__line action-btns action-btns--featured">
-            <div class="action-btns__turn"></div>
-            <div class="action-btns__gift">
-              <span class="action-btns__desc">Make a present</span>
-            </div>
-            <div class="action-btns__cart">
-              <span class="action-btns__desc">Add to cart</span>
-            </div>
-            <div class="action-btns__price">$99.00</div>
-          </div>
+        </article>
 
-        </div>
-      </article>
-
-      <article class="featured__item featured__item--new">
-        <img class="featured__pic" src="" alt="">
-        <div class="featured__note"></div>
-        <div class="featured__info">
-          <div class="featured__line">
-            <h1 class="featured__title">Product Title here</h1>
-            <p class="featured__desc">Short Description here</p>
-          </div>
-          <div class="featured__line action-btns action-btns--featured">
-            <div class="action-btns__turn"></div>
-            <div class="action-btns__gift">
-              <span class="action-btns__desc">Make a present</span>
+        <article class="featured__item">
+          <img class="featured__pic" src="img/feature2.jpg" alt="Featured Dress 2">
+          <div class="featured__info">
+            <div class="featured__line">
+              <h1 class="featured__title">Product Title here</h1>
+              <p class="featured__desc">Short Description here</p>
             </div>
-            <div class="action-btns__cart">
-              <span class="action-btns__desc">Add to cart</span>
+            <div class="featured__line action-btns action-btns--featured">
+              <div class="action-btns__button action-btns__turn"></div>
+              <div class="action-btns__button action-btns__gift">
+                <!--   <span class="action-btns__desc">Make a present</span>-->
+              </div>
+              <div class="action-btns__button action-btns__cart">
+                <!-- <span class="action-btns__desc">Add to cart</span>-->
+              </div>
+              <div class="action-btns__button action-btns__price">$99.00</div>
             </div>
-            <div class="action-btns__price">$99.00</div>
-          </div>
 
-        </div>
-      </article>
-
-      <article class="featured__item">
-        <img class="featured__pic" src="" alt="">
-        <div class="featured__info">
-          <div class="featured__line">
-            <h1 class="featured__title">Product Title here</h1>
-            <p class="featured__desc">Short Description here</p>
           </div>
-          <div class="featured__line action-btns action-btns--featured">
-            <div class="action-btns__turn"></div>
-            <div class="action-btns__gift">
-              <span class="action-btns__desc">Make a present</span>
+        </article>
+
+        <article class="featured__item featured__item--new">
+          <img class="featured__pic" src="img/featured3.jpg" alt="Featured Dress 3">
+          <div class="featured__note featured__note--new">New</div>
+          <div class="featured__info">
+            <div class="featured__line">
+              <h1 class="featured__title">Product Title here</h1>
+              <p class="featured__desc">Short Description here</p>
             </div>
-            <div class="action-btns__cart">
-              <span class="action-btns__desc">Add to cart</span>
+            <div class="featured__line action-btns action-btns--featured">
+              <div class="action-btns__button action-btns__turn"></div>
+              <div class="action-btns__button action-btns__gift">
+                <!--   <span class="action-btns__desc">Make a present</span>-->
+              </div>
+              <div class="action-btns__button action-btns__cart">
+                <!-- <span class="action-btns__desc">Add to cart</span>-->
+              </div>
+              <div class="action-btns__button action-btns__price">$99.00</div>
             </div>
-            <div class="action-btns__price">$99.00</div>
-          </div>
 
-        </div>
-      </article>
+          </div>
+        </article>
+
+        <article class="featured__item">
+          <img class="featured__pic" src="img/feature4.jpg" alt="Featured Dress 4">
+          <div class="featured__info">
+            <div class="featured__line">
+              <h1 class="featured__title">Product Title here</h1>
+              <p class="featured__desc">Short Description here</p>
+            </div>
+            <div class="featured__line action-btns action-btns--featured">
+              <div class="action-btns__button action-btns__turn"></div>
+              <div class="action-btns__button action-btns__gift">
+                <!--   <span class="action-btns__desc">Make a present</span>-->
+              </div>
+              <div class="action-btns__button action-btns__cart">
+                <!-- <span class="action-btns__desc">Add to cart</span>-->
+              </div>
+              <div class="action-btns__button action-btns__price">$99.00</div>
+            </div>
+
+          </div>
+        </article>
+      </div>
 
     </section>
 
