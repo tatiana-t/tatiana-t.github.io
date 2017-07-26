@@ -449,10 +449,18 @@
         <h3 class="main-content__title">Who We Are</h3>
       </header>
       <p class="about__info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <div class="about__item about__item--chose">Chose Products</div>
-      <div class="about__item about__item--reg">Register/Login</div>
-      <div class="about__item about__item--checkout">Checkout</div>
-      <button class="about__btn btn">Register Now</button>
+      <div class="main-content__row">
+        <div class="about__item about__item--choose">
+          Chose Products
+        </div>
+        <div class="about__item about__item--reg">
+          Register/<br>Login
+        </div>
+        <div class="about__item about__item--checkout">
+          Checkout
+        </div>
+      </div>
+      <button class="about__btn">Register Now</button>
     </section>
   </main>
   <footer class="main-footer">
@@ -460,55 +468,57 @@
       <section class="main-footer__item">
         <h2 class="main-footer__title">shopping with us</h2>
         <ul class="main-footer__list">
-          <li class="main-footer__list-item">why shop with us?</li>
-          <li class="main-footer__list-item">how it works</li>
-          <li class="main-footer__list-item">delivery</li>
-          <li class="main-footer__list-item">returns</li>
-          <li class="main-footer__list-item">where's my order</li>
-          <li class="main-footer__list-item">contact &amp; help</li>
-          <li class="main-footer__list-item">wedding list</li>
-          <li class="main-footer__list-item">wish lists</li>
-          <li class="main-footer__list-item">gift vouchers</li>
+          <li class="main-footer__list-item"><a href="#">why shop with us?</a></li>
+          <li class="main-footer__list-item"><a href="#">how it works</a></li>
+          <li class="main-footer__list-item"><a href="#">delivery</a></li>
+          <li class="main-footer__list-item"><a href="#">returns</a></li>
+          <li class="main-footer__list-item"><a href="#">where's my order</a></li>
+          <li class="main-footer__list-item"><a href="#">contact &amp; help</a></li>
+          <li class="main-footer__list-item"><a href="#">wedding list</a></li>
+          <li class="main-footer__list-item"><a href="#">wish lists</a></li>
+          <li class="main-footer__list-item"><a href="#">gift vouchers</a></li>
         </ul>
       </section>
       <section class="main-footer__item">
         <h2 class="main-footer__title">about us</h2>
         <ul class="main-footer__list">
-          <li class="main-footer__list-item">our story</li>
-          <li class="main-footer__list-item">customer contact</li>
-          <li class="main-footer__list-item">awards</li>
-          <li class="main-footer__list-item">press centre</li>
-          <li class="main-footer__list-item">work with us</li>
-          <li class="main-footer__list-item">terms &amp; conditions</li>
-          <li class="main-footer__list-item">privacy &amp; cookies</li>
+          <li class="main-footer__list-item"><a href="#">our story</a></li>
+          <li class="main-footer__list-item"><a href="#">customer contact</a></li>
+          <li class="main-footer__list-item"><a href="#">awards</a></li>
+          <li class="main-footer__list-item"><a href="#">press centre</a></li>
+          <li class="main-footer__list-item"><a href="#">work with us</a></li>
+          <li class="main-footer__list-item"><a href="#">terms &amp; conditions</a></li>
+          <li class="main-footer__list-item"><a href="#">privacy &amp; cookies</a></li>
         </ul>
       </section>
       <section class="main-footer__item">
         <h2 class="main-footer__title">selling with us</h2>
         <ul class="main-footer__list">
-          <li class="main-footer__list-item">why join?</li>
-          <li class="main-footer__list-item">faqs</li>
-          <li class="main-footer__list-item">apply to sell with us</li>
-          <li class="main-footer__list-item">affiliates</li>
+          <li class="main-footer__list-item"><a href="#css/">why join?</a></li>
+          <li class="main-footer__list-item"><a href="#">faqs</a></li>
+          <li class="main-footer__list-item"><a href="#">apply to sell with us</a></li>
+          <li class="main-footer__list-item"><a href="#">affiliates</a></li>
         </ul>
       </section>
-      <section class="main-footer__item">
-        <h2 class="main-footer__title">signup newsletter</h2>
-        <form action="" class="main-footer__subscribe">
-          <input class="" type="email" placeholder="e.g.: abc@domain.com">
-          <label for="main-footer__subscribe" class="main-footer__label">sibcribe now
-            <input class="main-footer__btn btn" type="submit" id="main-footer__subscribe">
-          </label>
-        </form>
-      </section>
-      <section class="main-footer__item">
-        <h2 class="main-footer__title">keep in touch</h2>
-        <a href="" class="main-footer__social-btn">rss</a>
-        <a href="" class="main-footer__social-btn">facebook</a>
-        <a href="" class="main-footer__social-btn">twitter</a>
-        <a href="" class="main-footer__social-btn">flickr</a>
-        <a href="" class="main-footer__social-btn">google</a>
-      </section>
+      <div class="main-footer__col-wrap">
+        <section class="main-footer__item">
+          <h2 class="main-footer__title">signup newsletter</h2>
+          <form action="" class="main-footer__subscribe">
+            <input class="main-footer__input" type="email" placeholder="e.g.: abc@domain.com">
+            
+              <input class="main-footer__btn btn" type="submit" id="main-footer__subscribe" value="subcribe now">
+            
+          </form>
+        </section>
+        <section class="main-footer__item main-footer__item--social-btns">
+          <h2 class="main-footer__title">keep in touch</h2>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--rss">rss</a>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--fb">facebook</a>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--tw">twitter</a>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--flickr">flickr</a>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--google">google</a>
+        </section>
+      </div>
     </div>
     <div class="main-footer__copyright">
       <span class="main-footer__copyright-info">Copyright © 2014 Gift Shop,  All right reserved</span>
