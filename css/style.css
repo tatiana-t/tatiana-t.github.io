@@ -70,17 +70,11 @@ body {
   -ms-flex-align: baseline;
       align-items: baseline;
 }
-.portfolio__contacts {
-  /* margin-left: auto;
-  margin-bottom: 30px; */
-}
 .portfolio__title {
   font-size: 56px;
   color: #eaeaea;
 }
 .portfolio__content {
-  /* padding-left: 55px;
-  padding-right: 55px; */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -106,27 +100,16 @@ body {
   margin-bottom: 0;
   position: relative;
   z-index: 2;
-  width: 100%;
+  width: 1270px;
   height: 200px;
-  /* &::after {
-    content: '';
-    display: block;
-    width: 400px;
-    height: 250px;
-    position: absolute;
-    z-index: 1;
-    top: 10px;
-    left: 15px;
-    border: 3px solid #64666a;
-    border-radius: 10px; }*/
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .porfolio__image {
   width: 100%;
   height: 100%;
   overflow-y: hidden;
   margin-bottom: 0;
-  /* border: 2px solid #94939d;
-  border-radius: 7px; */
   filter: brightness(0.3);
 }
 .porfolio__image::-webkit-scrollbar {
@@ -136,7 +119,7 @@ body {
   width: 0;
 }
 .porfolio__image:hover {
-  filter: brightness(1);
+  filter: brightness(0.4);
 }
 .portfolio__pic {
   width: 100%;
@@ -156,55 +139,82 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
 }
-.htmlacademy::before {
-  content: '';
+.portfolio__button,
+.detail__button {
+  display: block;
   position: absolute;
-  width: 25px;
-  height: 25px;
-  top: 0;
-  left: -25px;
-  background-image: url('../img/htmlacademy.svg');
-  background-repeat: no-repeat;
-  background-position: ;
-  background-size: cover;
-}
-.htmlacademy::before:hover {
-  content: 'Макет из рассылки htmlacademy';
-}
-.portfolio__btns {
-  -ms-flex-item-align: center;
-      align-self: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  position: absolute;
-  bottom: 15px;
-  z-index: 3;
-}
-.portfolio__button {
-  display: inline-block;
-  vertical-align: middle;
-  height: 15px;
-  width: 15px;
-  padding: 10px;
-  border-radius: 10px;
-  color: #0b166c;
-  font-size: 18px;
+  bottom: 70px;
+  left: 50%;
+  margin-left: -83px;
+  width: 195px;
+  height: 50px;
+  padding: 20px;
+  font-size: 14px;
   line-height: 1em;
   text-align: center;
+  border: none;
+}
+.portfolio__button::before,
+.detail__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 190px;
+  height: 43px;
+  border: 2px solid #fff;
+}
+.portfolio__button:hover::before,
+.detail__button:hover::before {
+  transform: translate(-10px, -10px);
+  border: 2px solid #fff;
+  transition-timing-function: linear;
+  transition-duration: .2s;
+}
+.portfolio__button::after,
+.detail__button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 190px;
+  height: 43px;
+}
+.portfolio__button:hover::after,
+.detail__button:hover::after {
+  border: 3px dashed #fff;
+  transform: translate(10px, 10px);
+  transition-timing-function: linear;
+  transition-duration: .2s;
+}
+.portfolio__button--detail {
+  background-color: #fff;
+  color: #395578;
+}
+.detail {
+  padding: 30px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #395578;
+  line-height: 1em;
+}
+.detail__btns {
+  margin: 0 auto;
+}
+.detail__button {
+  background-color: #395578;
+  position: static;
+  display: inline-block;
+  color: #fff;
+  margin-right: 15px;
+  padding: 10px 0;
+  width: 200px;
+  line-height: 3em;
+}
+.detail__button--git {
+  background-size: 7%;
+  background-position: 10px 10px;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-.portfolio__button:first-child {
-  margin-right: 20px;
-}
-.portfolio__button--git {
   background-image: url('../img/github-white.png');
 }
 .portfolio__button--page {

@@ -5,17 +5,13 @@
   margin-bottom: 25px;
 }
 
-.promo-item__info {
-  display: none;
-}
-
 .promo__pic {
   overflow: hidden;
 }
 
 .promo__item--left-top {
   grid-column: 1 / span 1;
-  grid-row: 1 / span 2;
+  grid-row: 1 / span 3;
 }
 
 .promo__item--right-top {
@@ -26,6 +22,14 @@
 .promo__item--right-mid {
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
+  &:hover {
+    .promo__pic {
+      filter: hue-rotate(-25deg) brightness(0.5);
+    }
+    .promo-item__info {
+      display: none;
+    }
+  }
 }
 
 .promo__item--search {
@@ -34,16 +38,89 @@
   background-color: #f0626e;
   padding: 50px;
 }
+
 .promo__item--left-bottom {
   grid-column: 1 / span 1;
   grid-row: 7 / span 1;
 }
+
 .promo__item--right-bottom {
   grid-column: 3 / span 1;
-  grid-row: 5 / span 2;
+  grid-row: 5 / span 3;
 }
+
 .promo__search-input {
   width: 485px;
   padding: 30px 20px;
   font-size: 16px;
+  margin-right: 20px;
 }
+
+.promo-item__search-label {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  width: 53px;
+  height: 45px;
+  background-image: url('../img/icon-search.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0;
+}
+
+.promo__item {
+  position: relative;
+  &:hover .promo-item__btns {
+    display: block;
+  }
+}
+
+.promo-item__info {
+  position: absolute;
+  bottom: 10px;
+  width: 265px;
+}
+
+.promo-item__part {
+  padding: 20px 15px 20px 15px;
+  margin-bottom: 2px;
+  background-color: rgba(54, 42, 79, 0.8);
+}
+
+.promo-item__title {
+  font-size: 25px;
+  font-family: Aparajita, serif;
+  color: #f0626e;
+  text-transform: uppercase;
+}
+
+.promo-item__desc {
+  color: #fff;
+  font-size: 13px;
+}
+
+.promo-item__accent {
+  padding: 15px;
+  background-color: #f0626e;
+  color: #fff;
+  font-size: 20px;
+  font-family: Aparajita, serif;
+}
+
+.promo__item--left-top {
+  .promo-item__info {
+    width: 348px;
+  }
+  .promo-item__title {
+    font-size: 48px;
+  }
+}
+
+.promo-item__btns {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+}
+
