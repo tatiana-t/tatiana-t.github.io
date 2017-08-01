@@ -3,8 +3,8 @@ body {
   padding: 80px 0 50px 0;
   min-height: 100vh;
   color: #fff;
-  //margin: 0 auto;
-  background-color: #080f1f;
+  margin: 0 auto;
+  background-color: #96c5d6;
 }
 
 .portfolio__header-group {
@@ -23,40 +23,35 @@ body {
 }
 
 .portfolio__content {
-  position: relative;
-  overflow: hidden;
+  //position: relative;
+  //overflow: hidden;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
   padding: 30px;
-  max-width: 1200px;
+  max-width: 1260px;
   margin: 0 auto;
-  &::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1200px;
-    top: 0;
-    left: 0;
-    background-image: url('../img/bg-gate.JPG');
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-    transform: rotate(90deg);
-  }
+  
 }
 
 .project {
   height: 240px;
+  max-width: 1200px;
   margin-bottom: 30px;
   position: relative;
-  border: 2px solid #000000;
-  filter: brightness(0.3);
+  border: 20px solid #eaeaea;
+  //padding: 30px;
+  //background-color: #eaeaea;
+  //filter: brightness(0.3);
+  transition-duration: 0.2s;
   &:hover {
     filter: brightness(1);
-    box-shadow: 0 0 68px 32px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    .project__image {
+      filter: brightness(0.8);
+    }
   }
 }
 
@@ -72,23 +67,27 @@ body {
   top: -420px;
   overflow: hidden;
 }
+
 .project--sedona {
   .project__pic {
-  top: -20px;
+    top: -20px;
+  }
 }
-}
+
 .project__button {
   position: absolute;
   bottom: 50%;
   left: 50%;
   margin-left: -75px;
+  margin-bottom: -15px;
   cursor: pointer;
   width: 200px;
   padding: 15px 0;
   border: none;
-  font-weight: 700;
+  font-weight: 600;
   color: #f0eee8;
-  background-color: #664b0d;
+  background-color: #BF9A92;
+  transition-duration: 0.2s;
   &::before,
   &::after {
     content: '';
@@ -96,74 +95,61 @@ body {
     top: 0;
     left: 0;
     width: 190px;
-    height: 43px;
+    height: 40px;
+    border: 2px solid #BF9A92;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+  }
+  &::after {
+    border: 3px dashed #BF9A92;
+  }
+  &:hover::before {
+    transform: translate(-10px, -10px);
+  }
+  &:hover::after {
+    transform: translate(10px, 10px);
   }
   &:hover {
-    &::before,
-    &::after {
-      transform: translate(-10px, -10px);
-      border: 2px solid #664b0d;
-      transition-timing-function: linear;
-      transition-duration: .2s;
-    }
-    &::after {
-      border: 3px dashed #664b0d;
-      transform: translate(10px, 10px);
-    }
+    box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.detail--closed {
+  display: none;
+}
+
+.detail--opened {
+  display: block;
+}
+
+.detail {
+  padding: 30px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #395578;
+  max-width: 900px;
+  margin: 200px auto 0;
+  position: fixed;
+  top: 250px;
+  z-index: 2000;
+  &::before {
+    content: '';
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* right: 0;
+    bottom: 0; */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1900;
   }
 }
 
 
-/* .portfolio__project {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-bottom: 0;
-  position: relative;
-  z-index: 2;
-  width: 1270px;
-  height: 200px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
 
-.porfolio__image {
-  &::-webkit-scrollbar {
-    width: 0;
-  }
-  &::-moz-scrollbar {
-    width: 0;
-  }
-  width: 100%;
-  height: 100%;
-  overflow-y: hidden;
-  margin-bottom: 0;
-  filter: brightness(0.3);
-  &:hover {
-    filter: brightness(0.4);
-  }
-}
-
-.portfolio__pic {
-  width: 100%;
-  overflow-y: scroll;
-  position: relative;
-  z-index: 2;
-  position: relative;
-  top: -190px;
-}
-
-.porfolio__capture {
-  text-align: center;
-  position: relative;
-  z-index: 3;
-  bottom: 110px;
-  font-size: 54px;
-  font-weight: 700;
-  align-self: center;
-}
-
+/*
 
 .portfolio__button,
 .detail__button {
