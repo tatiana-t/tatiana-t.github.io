@@ -20,8 +20,11 @@ function detailWindow(eventObj) {
   
   imp.href = 'projectDetails/' + btn.getAttribute('name') + '.html'; 
   
+  imp.getAttribute('href');
   
+  var details = document.querySelector('link[rel="import"]').import;
+  var innerDetails = details.querySelector('.detail');
+  console.log(innerDetails);
   
-  var details = imp.import;
-  portfolioContent.appendChild(details);
+  portfolioContent.appendChild.(innerDetails.cloneNode(true));
 }
