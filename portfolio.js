@@ -9,7 +9,8 @@ function init() {
   }
 
 }
-var imp = document.querySelector('link[rel="import"]');
+
+
 var portfolioContent = document.querySelector('.portfolio__contacts');
 
 function detailWindow(eventObj) {
@@ -18,13 +19,21 @@ function detailWindow(eventObj) {
   
   console.log('btn attribute is ' + btn.getAttribute('name'));
   
-  imp.href = 'projectDetails/' + btn.getAttribute('name') + '.html'; 
+//  var doc= document.querySelector('link[rel="import"]').import;
   
-  imp.getAttribute('href');
+// задаем переменную для тега ссылки импорта, чтобы сформировать путь загружаемого файла
   
+  var imp = document.querySelector('link[rel="import"]');
+  imp.href = 'projectDetails/' + btn.getAttribute('name') + '.html';
+  console.log(imp);
+  console.log(imp.href);
+  
+  // задаем переменную для импортируемого файла 
   var details = document.querySelector('link[rel="import"]').import;
-  var innerDetails = details.querySelector('.detail');
-  console.log(innerDetails);
+  console.log(details);
   
-  portfolioContent.appendChild.(innerDetails.cloneNode(true));
+  //var innerDetails = details.querySelector('.detail');
+  //console.log(innerDetails);
+  
+  //portfolioContent.appendChild.innerDetails.cloneNode(true);
 }
