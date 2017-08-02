@@ -214,6 +214,14 @@ h3 {
 .item--dr {
   background-image: url('../img/DR-II-product.jpg');
 }
+@media screen and (max-width: 780px) {
+  .item--half {
+    width: 100%;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width: 320px) {
   .item {
     width: 100%;
@@ -230,14 +238,6 @@ h3 {
   .item--gina .item__text {
     font-size: 24px;
     margin-bottom: 60px;
-  }
-}
-@media screen and (max-width: 780px) {
-  .item--half {
-    width: 100%;
-  }
-  .item {
-    margin-bottom: 20px;
   }
 }
 .button {
@@ -261,6 +261,11 @@ h3 {
   padding-top: 23px;
   font-size: 18px;
   width: 360px;
+}
+@media screen and (max-width: 780px) {
+  .button--invite {
+    width: 340px;
+  }
 }
 @media screen and (max-width: 320px) {
   .button--invite {
@@ -300,6 +305,19 @@ h3 {
   text-align: center;
   color: inherit;
 }
+@media screen and (max-width: 780px) {
+  .invite {
+    width: 360px;
+    -ms-flex-pack: stretch;
+        justify-content: stretch;
+  }
+  .invite__title {
+    font-size: 24px;
+  }
+  .invite__input {
+    width: 340px;
+  }
+}
 @media screen and (max-width: 320px) {
   .invite__input {
     width: 280px;
@@ -310,9 +328,18 @@ h3 {
 }
 .main-footer {
   text-align: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
 }
 .main-footer a {
   font-size: 24px;
+}
+.main-footer nav {
+  margin-bottom: 30px;
 }
 .main-footer__item {
   position: relative;
@@ -330,18 +357,6 @@ h3 {
 }
 .main-footer__copyright {
   font-size: 18px;
-}
-@media screen and (max-width: 780px) {
-  .main-footer__item {
-    margin-right: 15px;
-  }
-  .main-footer__item:not(:first-child)::before {
-    left: -10px;
-  }
-  .main-footer.container {
-    -ms-flex-align: baseline;
-        align-items: baseline;
-  }
 }
 @media screen and (max-width: 320px) {
   .main-footer__nav {

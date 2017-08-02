@@ -113,7 +113,14 @@
 .item--dr {
   background-image: url('../img/DR-II-product.jpg');
 }
-
+@media screen and (max-width: 780px) {
+  .item--half {
+    width: 100%;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width: 320px) {
   .item {
     width: 100%;
@@ -130,13 +137,5 @@
       font-size: 24px;
       margin-bottom: 60px;
     }
-  }
-}
-@media screen and (max-width: 780px) {
-  .item--half {
-    width: 100%;
-  }
-  .item {
-    margin-bottom: 20px;
   }
 }
