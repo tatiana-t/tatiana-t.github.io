@@ -4,12 +4,12 @@
     font-size: 24px;
   }
   nav {
-    margin: 0 auto;
+    
   }
 }
 
 .main-footer__nav {
-  margin-bottom: 30px;
+  
 }
 
 .main-footer__item {
@@ -29,15 +29,29 @@
 
 .main-footer__copyright {
   font-size: 18px;
-  margin: 0 auto;
+  
 }
-
+@media screen and (max-width: 780px) {
+  .main-footer__item {
+    margin-right: 15px;
+    &:not(:first-child)::before {
+      left: -10px;
+    }
+  }
+  .main-footer.container {
+    align-items: baseline;
+  }
+}
 @media screen and (max-width: 320px) {
   .main-footer__nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    
+  }
+  .main-footer nav, .main-footer__copyright {
+    margin: 0 auto;
   }
   .main-footer__item {
     margin-right: 0;
