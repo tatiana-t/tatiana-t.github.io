@@ -112,6 +112,9 @@ body {
     -ms-flex-align: start;
         align-items: flex-start;
   }
+  .portfolio__title {
+    margin-bottom: 20px;
+  }
   .portfolio__contacts a {
     transition: none;
   }
@@ -225,7 +228,10 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
+  .project__title {
+    margin-left: 20px;
+  }
   .project__image-link {
     height: 250px;
   }
