@@ -359,3 +359,33 @@ body {
 .detail__button:hover::after {
   transform: translate(10px, 7px);
 }
+.detail__button:active {
+  background-color: #9b665a;
+}
+@media screen and (max-width: 720px) {
+  .detail__wrap {
+    margin-left: 0;
+    margin-top: 20px;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .detail__close-btn::before,
+  .detail__close-btn::after {
+    width: 2px;
+    height: 35px;
+  }
+  .detail__button {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  ::before,
+  ::after {
+    transition: none;
+    display: none;
+  }
+  .detail__text {
+    font-size: 1.5em;
+  }
+}
