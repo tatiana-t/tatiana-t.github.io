@@ -156,6 +156,8 @@
     max-width: 100%;
     top: 0;
     left: 0;
+    height: 100%;
+    overflow: scroll;
   }
   .detail__close-btn {
     width: 35px;
@@ -173,5 +175,10 @@
   }}
   .detail__text {
     font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .detail__wrap {
+    padding: 30px 15px;
   }
 }
