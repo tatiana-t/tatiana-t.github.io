@@ -56,15 +56,15 @@
   position: absolute;
   top: 15px;
   right: 25px;
-  width: 35px;
-  height: 35px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
   &::before,
   &::after {
     content: '';
     position: absolute;
     top: 0;
-    right: 17px;
+    right: 15px;
     width: 1px;
     height: 100%;
     transform: rotate(45deg);
@@ -156,6 +156,8 @@
     max-width: 100%;
     top: 0;
     left: 0;
+    height: 100%;
+    overflow: scroll;
   }
   .detail__close-btn {
     width: 35px;
@@ -173,5 +175,10 @@
   }}
   .detail__text {
     font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .detail__wrap {
+    padding: 30px 15px;
   }
 }
