@@ -368,6 +368,12 @@ body {
   bottom: 0;
   right: 0;
 }
+.promo__item--right-bottom .promo-item__info {
+  width: 395px;
+  right: 0;
+  bottom: 0;
+  transform: rotate(-90deg);
+}
 .main-content__item {
   margin-bottom: 30px;
 }
