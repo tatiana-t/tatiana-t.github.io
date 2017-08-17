@@ -1,26 +1,28 @@
 .profile-info__item {
-  background-color: #05aecc;
-  color: #fff;
-  margin-right: 5px;
-  width: 115px;
-  text-align: center;
-  &:last-child {
-    margin-right: 0;
-  }
-  &:hover {
-    background-color: #f0626e;
-  }
-}
-
-.profile-info__item {
   a {
     display: inline-block;
     vertical-align: top;
     padding: 35px 0;
+    background-color: #05aecc;
+    color: #fff;
+    margin-right: 5px;
+    width: 115px;
+    text-align: center;
+    
+    &:hover {
+      background-color: #f0626e;
+    }
   }
+  &:last-child a {
+      margin-right: 0;
+    }
 }
 
-.profile-info__item--whishlist {
+.profile-info__item--accent a {
+  background-color: #f0626e;
+}
+
+.profile-info__item--whishlist a {
   padding-right: 30px;
   background-image: url('../img/icon-gift.png');
   background-repeat: no-repeat;
@@ -30,7 +32,7 @@
   text-align: center;
 }
 
-.profile-info__item--cart {
+.profile-info__item--cart a {
   padding-right: 30px;
   background-image: url('../img/icon-cart.png');
   background-repeat: no-repeat;
