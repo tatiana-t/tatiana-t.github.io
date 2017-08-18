@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initioal-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gift Shop</title>
   <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   <link rel="stylesheet" href="css/style.css">
@@ -257,7 +257,7 @@
   <section class="promo">
 
     <div class="promo__item promo__item--left-top">
-      <img class="promo__pic" src="img/men.jpg" alt="Men's wear" height="570">
+      <img class="promo__pic" src="img/men.jpg" alt="Men's wear" >
       <div class="promo-item__info">
         <div class="promo-item__part">
           <h2 class="promo-item__title">men's wear</h2>
@@ -319,7 +319,7 @@
 
     <form class="promo__item promo__item--search">
       <input class="promo__search-input" type="text" id="promo-item__search" name="promo-item__search" placeholder="Search you product here (e.g.:Silver diamond ring)">
-      <label class="promo-item__search-label" for="promo-item__search"></label>
+      <button class="promo-item__search-label" for="promo-item__search" type="submit"></button>
     </form>
 
     <div class="promo__item promo__item--left-bottom">
@@ -584,7 +584,7 @@
   <script>
     $(function() {
   $(".menu-item").click(function() {
-    $(".menu-item__list").toggleClass("menu-item__list--open");
+    $(this).toggleClass("menu-item--open");
   });
 });
   </script>
