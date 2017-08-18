@@ -1,8 +1,8 @@
 .promo {
   display: grid;
-  grid-template-columns: 57.2649572% 41.88034188%;
+  grid-template-columns: 57% 42.6%;
   grid-column-gap: 5px;
-  grid-template-rows: 27.35042735% 20.9401794% 14.5299145299% 28.63247863%;
+  grid-template-rows: 27% 21% 15% 29%;
   grid-row-gap: 5px;
   margin-bottom: 25px;
 }
@@ -27,7 +27,8 @@
 
 .promo__pic {
   overflow: hidden;
-  height: 100%;
+  width: 100%;
+  -webkit-height: 100%;
 }
 
 .promo__item--left-top {
@@ -220,5 +221,10 @@
       border-left-color: transparent;
       
     }
+  }
+}
+@media screen and (max-width: 320px) {
+  .promo {
+    .flex-column();
   }
 }

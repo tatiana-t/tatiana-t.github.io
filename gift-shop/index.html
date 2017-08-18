@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initioal-scale=1">
   <title>Gift Shop</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
@@ -255,7 +257,7 @@
   <section class="promo">
 
     <div class="promo__item promo__item--left-top">
-      <img class="promo__pic" src="img/men.jpg" alt="Men's wear" width="">
+      <img class="promo__pic" src="img/men.jpg" alt="Men's wear" height="570">
       <div class="promo-item__info">
         <div class="promo-item__part">
           <h2 class="promo-item__title">men's wear</h2>
@@ -276,7 +278,7 @@
     </div>
 
     <div class="promo__item promo__item--right-top">
-      <img class="promo__pic" src="img/women.jpg" alt="Women's wear" width="" height="">
+      <img class="promo__pic" src="img/women.jpg" alt="Women's wear">
       <div class="promo-item__info">
         <div class="promo-item__part">
           <h2 class="promo-item__title">women's wear</h2>
@@ -408,7 +410,7 @@
       </header>
       <div class="main-content__row">
         <article class="featured__item">
-          <img class="featured__pic" src="img/featured1.jpg" alt="Featured Dress 1" width="270">
+          <img class="featured__pic" src="img/feature1.jpg" alt="Featured Dress 1" width="270">
           <div class="featured__note featured__note--discount">20% OFF</div>
           <div class="featured__info">
             <div class="featured__line">
@@ -451,7 +453,7 @@
         </article>
 
         <article class="featured__item featured__item--new">
-          <img class="featured__pic" src="img/featured3.jpg" alt="Featured Dress 3">
+          <img class="featured__pic" src="img/feature3.jpg" alt="Featured Dress 3">
           <div class="featured__note featured__note--new">New</div>
           <div class="featured__info">
             <div class="featured__line">
@@ -579,6 +581,13 @@
       </span>
     </div>
   </footer>
+  <script>
+    $(function() {
+  $(".menu-item").click(function() {
+    $(".menu-item__list").toggleClass("menu-item__list--open");
+  });
+});
+  </script>
 </body>
 
 </html>
