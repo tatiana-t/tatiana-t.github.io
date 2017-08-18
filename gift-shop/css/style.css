@@ -192,9 +192,6 @@ body {
   background-color: #fff;
   color: #f0626e;
 }
-.menu-item:hover .menu-item__list {
-  display: block;
-}
 .menu-item__list {
   display: none;
   width: 260px;
@@ -205,6 +202,9 @@ body {
   padding: 10px 20px 15px;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.33);
+}
+.menu-item__list--open {
+  display: block;
 }
 .menu-item__sub-item {
   padding: 15px 0;
@@ -248,11 +248,11 @@ body {
 .promo {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 57.2649572% 41.88034188%;
-      grid-template-columns: 57.2649572% 41.88034188%;
+  -ms-grid-columns: 57% 42.6%;
+      grid-template-columns: 57% 42.6%;
   grid-column-gap: 5px;
-  -ms-grid-rows: 27.35042735% 20.9401794% 14.5299145299% 28.63247863%;
-      grid-template-rows: 27.35042735% 20.9401794% 14.5299145299% 28.63247863%;
+  -ms-grid-rows: 27% 21% 15% 29%;
+      grid-template-rows: 27% 21% 15% 29%;
   grid-row-gap: 5px;
   margin-bottom: 25px;
 }
@@ -274,7 +274,8 @@ body {
 }
 .promo__pic {
   overflow: hidden;
-  height: 100%;
+  width: 100%;
+  -webkit-height: 100%;
 }
 .promo__item--left-top {
   -ms-grid-column-span: 1;
@@ -460,6 +461,14 @@ body {
   border-right-color: transparent;
   border-left-color: transparent;
 }
+@media screen and (max-width: 320px) {
+  .promo {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
 .action-btns {
   font-size: 0;
   padding: 0;
@@ -587,6 +596,8 @@ body {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
   -ms-flex-align: stretch;
@@ -796,6 +807,8 @@ body {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
   -ms-flex-align: start;
@@ -863,7 +876,7 @@ body {
   background-image: url(../img/icon-twitter.svg);
 }
 .main-footer__social-btn--flickr {
-  background-image: url(../img/icon-flickr.png);
+  background-image: url(../img/icon-flickr.jpg);
   border: 1px solid #dbdbdb;
 }
 .main-footer__social-btn--google {
