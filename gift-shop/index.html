@@ -584,6 +584,7 @@
   <script>
     $(function() {
   $(".menu-item").click(function() {
+    $(".menu-item").removeClass("menu-item--open");
     $(this).toggleClass("menu-item--open");
   });
 });
