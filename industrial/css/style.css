@@ -261,6 +261,9 @@ h3 {
   .item--dr {
     background-image: url('../img/DR-II-product-mobile.jpg');
   }
+  .item--half {
+    padding-bottom: 100px;
+  }
 }
 .button {
   min-width: 120px;
@@ -340,7 +343,7 @@ h3 {
     width: 340px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .invite__input {
     width: 280px;
   }
