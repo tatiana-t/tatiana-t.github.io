@@ -402,7 +402,7 @@ body {
     font-size: 1.5em;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .detail__wrap {
     padding: 30px 15px;
   }
