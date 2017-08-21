@@ -44,7 +44,7 @@
 }
 
 .item--third {
-  width: 360px;
+  width: 31.0344%;
   padding-bottom: 230px;
   .item__title {
     font-size: 36px;
@@ -113,6 +113,7 @@
 .item--dr {
   background-image: url('../img/DR-II-product.jpg');
 }
+
 @media screen and (max-width: 780px) {
   .item--half {
     width: 100%;
@@ -121,14 +122,16 @@
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 480px) {
   .item {
     width: 100%;
   }
   .item--gina {
     padding: 30px;
-    background-position: 97% 98%, center;
+    background-position: 97% 5%, center;
     background-size: 20%, cover;
+    background-image: url('../img/kikstarter.png'), url('../img/Gina-product-mobile.jpg');
     .item__title {
       font-size: 48px;
       margin-bottom: 60px;
@@ -137,5 +140,22 @@
       font-size: 24px;
       margin-bottom: 60px;
     }
+  }
+  .item--leica {
+    .lefted();
+    background-image: url('../img/Leica-MP-product-mobile.jpg');
+  }
+  .item--beoplay {
+    .righted();
+    background-image: url('../img/Beoplay-A1-product-mobile.jpg');
+  }
+  .item--molecule {
+    background-image: url('../img/Molekule-product-mobile.jpg');
+  }
+  .item--p9 {
+    background-image: url('../img/P9-Signature-product-mobile.jpg');
+  }
+  .item--dr {
+    background-image: url('../img/DR-II-product-mobile.jpg');
   }
 }
