@@ -1,10 +1,14 @@
-.promo {
+  .promo {
   display: grid;
   grid-template-columns: 57% 42.6%;
   grid-column-gap: 5px;
   grid-template-rows: 320px 245px 170px 335px;
   grid-row-gap: 5px;
   margin-bottom: 25px;
+}
+
+.promo__button {
+  display: none;
 }
 
 .promo__item {
@@ -15,14 +19,15 @@
   font-family: Aparajita, serif;
   &:hover {
     .promo-item__btns {
-      display: block;}
-      .promo__pic {
-        filter: hue-rotate(-25deg) brightness(0.5);
-      }
-      .promo-item__info {
-        display: none;
-      }
+      display: block;
     }
+    .promo__pic {
+      filter: hue-rotate(-25deg) brightness(0.5);
+    }
+    .promo-item__info {
+      display: none;
+    }
+  }
 }
 
 .promo__pic {
@@ -88,7 +93,7 @@
 }
 
 .promo__search-input {
-  width: 485px;
+  width: 80%;
   padding: 30px 20px;
   font-size: 16px;
   margin-right: 20px;
@@ -124,10 +129,10 @@
 
 .promo-item__title {
   font-size: 25px;
-  
   color: #f0626e;
   text-transform: uppercase;
 }
+
 .promo-item__title--jewelry {
   line-height: 1.32em;
 }
@@ -143,7 +148,6 @@
   background-color: #f0626e;
   color: #fff;
   font-size: 16px;
-  
   text-transform: uppercase;
 }
 
@@ -161,9 +165,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  .action-btns__button {
-    
-  }
+  .action-btns__button {}
 }
 
 .promo__item--right-bottom {
@@ -225,12 +227,75 @@
       border-bottom-color: transparent;
       border-right-color: transparent;
       border-left-color: transparent;
-      
     }
   }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 480px) {
   .promo {
-    .flex-column();
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .promo__wrap {
+    .flex-row();
+    max-height: 408px;
+    width: 100%;
+    transform: translateX(0);
+    transition-duration: 0.2s;
+  }
+  .promo__button {
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    background-color: rgba(255, 255, 255, 0.42);
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+  }
+  .promo__button--prev {
+    left: 0;
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 9px;
+      left: 25px;
+      width: 1px;
+      height: 22px;
+      background-color: #fff;
+      transform: rotate(45deg);
+    }
+    &::after {
+      top: 25px;
+      transform: rotate(-45deg);
+    }
+  }
+  
+  .promo__button--next {
+    right: 0;
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 9px;
+      right: 25px;
+      width: 1px;
+      height: 22px;
+      background-color: #fff;
+      transform: rotate(-45deg);
+  }
+  &::after {
+    top: 25px;
+    transform: rotate(45deg);
+    }
+  }
+    
+  .promo__item {
+    box-sizing: border-box;
+    width: 480px;
+    flex-shrink: 0;
+    height: 100%;
   }
 }
