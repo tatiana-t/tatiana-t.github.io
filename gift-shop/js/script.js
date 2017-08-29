@@ -1,14 +1,34 @@
-//    var menu = document.querySelector('.menu-item');
-//    menu.addEventListener('click', function() {
-//      this.classList.add('menu-item--open');
-//    });
+var menu = document.querySelectorAll('.menu-item');
+var help = true;
+for (i = 0; i < menu.length - 1; i++) {
 
-$(function () {
-  $(".menu-item").click(function () {
-    $(".menu-item").removeClass("menu-item--open");
-    $(this).classList.toggle("menu-item--open");
-  });
-});
+  menu[i].addEventListener('click', function () {
+    var openMenu = document.querySelector('.menu-item--open');
+    
+    if (this.classList.contains('menu-item--open')) {
+      this.classList.remove('menu-item--open');
+      
+
+    } else {
+
+      this.classList.add('menu-item--open');
+
+    }
+if (openMenu) {
+      openMenu.classList.remove('menu-item--open');
+    }
+
+  })
+};
+
+//работа меню
+//$(document).ready(function () {
+//  $(".menu-item").click(function () {
+//   // $(".menu-item").removeClass("menu-item--open");
+//    $('.menu-item__list').toggle();
+//    
+//  });
+//});
 
 
 //<script>
@@ -25,9 +45,9 @@ var blockPromo = document.querySelectorAll('.promo__item');
 var btnPromo = document.querySelectorAll('.promo__button');
 
 if (promo.clientWidth <= 480) {
-//если ширина < 480 включаем слайдер
+  //если ширина < 480 включаем слайдер
   function wrappingPromo() {
-    wrap.classList.add('promo__wrap'); 
+    wrap.classList.add('promo__wrap');
     promo.insertBefore(wrap, blockPromo[0]);
     wrapBlocks();
     //добавляем обертку для слайдера, в нее помещаем все элементы
@@ -55,7 +75,7 @@ function nextPromo() {
     position = Math.max(position - blockWidthPromo, -(blockPromo.length - 1) * blockWidthPromo);
   }
   wrap.style.transform = 'translateX(' + position + 'px)'
-}
+};
 
 function prevPromo() {
 
@@ -67,9 +87,9 @@ function prevPromo() {
   wrap.style.transform = 'translateX(' + position + 'px)'
 }
 
-$('.promo__wrap').on("swipeleft",function(){
-  nextPromo;
-});
-$('.promo__wrap').on("swiperight",function(){
-  prevPromo;
-});
+//$('.promo__wrap').on("swipeleft", function () {
+//  nextPromo;
+//});
+//$('.promo__wrap').on("swiperight", function () {
+//  prevPromo;
+//});
