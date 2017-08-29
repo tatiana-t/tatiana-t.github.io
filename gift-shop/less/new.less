@@ -1,7 +1,7 @@
 .new__item {
   position: relative;
   display: flex;
-  justyfy-content: center;
+  justify-content: center;
   .action-btns {
     display: none;
   }
@@ -25,5 +25,13 @@
       background-color: #303a5e;
       opacity: 0.7;
     }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .new__item {
+    width: 100%;
+    flex-shrink: 0;
+    
   }
 }
