@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Gift-shop",
+    "link": "gift-shop/index.html",
+    "image-desctop": "img/giftshop-desktop.jpg",
+    "description": "Первый промо-блок сделан на гридах, все последующие - на flexbox. Работа меню написана на javascript. \n Верстка сделана только в desktop варианте. Мобильная версия - в разработке.",
+    "descImg": "img/giftshop.jpg",
+    "descPage": "gift-shop/index.html",
+    "descCode": "https://github.com/tatiana-t/tatiana-t.github.io/tree/master/gift-shop"
+  },
+  {
+    "title": "Industrial",
+    "link": "gift-shop/index.html",
+    "image-desctop": "img/giftshop-mobile-less.jpg",
+    "description": "Первый промо-блок сделан на гридах, все последующие - на flexbox. Работа меню написана на javascript. \n Верстка сделана только в desktop варианте. Мобильная версия - в разработке.",
+    "descImg": "img/giftshop.jpg",
+    "descPage": "gift-shop/index.html",
+    "descCode": "https://github.com/tatiana-t/tatiana-t.github.io/tree/master/gift-shop"
+  },
+  {
+    "title": "Sedona",
+    "link": "gift-shop/index.html",
+    "image-desctop": "img/giftshop-mobile-less.jpg",
+    "description": "Первый промо-блок сделан на гридах, все последующие - на flexbox. Работа меню написана на javascript. \n Верстка сделана только в desktop варианте. Мобильная версия - в разработке.",
+    "descImg": "img/giftshop.jpg",
+    "descPage": "gift-shop/index.html",
+    "descCode": "https://github.com/tatiana-t/tatiana-t.github.io/tree/master/gift-shop"
+  },
+  {
+    "title": "Sigxak",
+    "link": "gift-shop/index.html",
+    "image-desctop": "img/giftshop-mobile-less.jpg",
+    "description": "Первый промо-блок сделан на гридах, все последующие - на flexbox. Работа меню написана на javascript. \n Верстка сделана только в desktop варианте. Мобильная версия - в разработке.",
+    "descImg": "img/giftshop.jpg",
+    "descPage": "gift-shop/index.html",
+    "descCode": "https://github.com/tatiana-t/tatiana-t.github.io/tree/master/gift-shop"
+  },
+]
