@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Read-city slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+  
+</style>
+
+<body>
+<div class="slider-wrap">
+    <button class="slider__arrow arrow--left">prev</button>
+     <button class="slider__arrow arrow--right">next</button>
+    <div class="slider">
+    
+      <template id="slider-item-template">
+        <div class="slider__item">
+          <img src="" alt="book" class="slider__pic">
+          <h3 class="slider__title"></h3>
+          <span class="slider__author"></span>
+          <span class="slider__price"></span>
+          <span class="slider__discount"></span>
+          <button class="slider__button"></button>
+        </div>
+      </template>
+  
+  </div>
+
+  </div>
+ 
+    <table class="table" id="selected">
+      <thead class="table__head">
+        <tr class="table__row">
+          <td>Название</td>
+          <td>Цена с учетом скидки</td>
+        </tr>
+      </thead>
+      <tbody class="table__main"></tbody>
+      <tfoot class="table__foot">
+        <tr>
+          <td>ИТОГ</td>
+          <td>Всего: <span id="sum-cost" class="sum-accent"></span>руб.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Скидка: <span id="sum-discount" class="sum-accent"></span>руб.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Сумма без скидки: <span id="sum-no-discount" class="sum-accent"></span>руб.</td>
+        </tr>
+      </tfoot>
+    </table>
+  
+<script src="script.js"></script>
+<script src="carousel.js"></script>
+</body>
+
+</html>
