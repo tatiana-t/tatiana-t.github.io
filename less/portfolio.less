@@ -1,32 +1,64 @@
 body {
   font-family: Futura;
-  padding: 80px 0 0 0;
+  padding: 45px 0 30px 0;
   min-height: 100vh;
   color: #fafafa;
   margin: 0 auto;
-  background-color: #518e90;
+  background-color: #333843;
+  background-image: repeating-linear-gradient(303deg, transparent 100px, rgba(184, 218, 226, 0.15) 102px, transparent 103px, transparent 140px), repeating-linear-gradient(-303deg, transparent 100px, rgba(184, 218, 226, 0.15) 102px, transparent 103px, transparent 140px);
+  background-attachment: fixed;
+  //border: 25px solid #b0b4bc;
+ 
+  border-radius: 10px;
+  //border-image: repeating-radial-gradient(circle, #f2b683 9px, transparent 10px) 30 round round;
+  
+  background-image: radial-gradient(circle, transparent 13%, rgba(184, 218, 226, 0.25) 15%, transparent 20%);
+ background-size: 30px 30px;
+background-repeat: repeat;
 }
-
+.portfolio__wrapper {
+  
+}
 .container {
   max-width: 1060px;
   min-width: 320px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .portfolio__header-group {
-  margin-bottom: 60px;
+  //margin-bottom: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
 }
-
+.portfolio-links {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+.portfolio__about-title {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    
+  }
+}
+.portfolio__about-content {
+  display: none;
+}
 .portfolio__title {
   font-size: 56px;
 }
-
+.portfolio__about {
+  //margin-left: auto;
+  
+}
 .portfolio__contacts {
+  margin-left: auto;
+  margin-right: 20px;
   a {
     transition-duration: 0.3s;
   }
@@ -40,11 +72,13 @@ body {
 
 .portfolio__content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
-  padding: 30px;
+  padding: 0;
+  
+  overflow: hidden;
 }
 
 .portfolio__footer {
