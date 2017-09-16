@@ -24,6 +24,9 @@
     ga('send', 'pageview');
 
   </script>
+  <script src="/js/jquery-1.7.1.min.js" > </script>
+
+  <script src="scroll/jquery.mCustomScrollbar.concat.min.js"></script>
 </head>
 
 <body>
@@ -185,6 +188,17 @@
   </div>
 
   <script src="portfolio.js"></script>
+  <script>
+(function($){
+$(window).load(function(){
+ 
+$(".project__image").mCustomScrollbar({
+theme:"dark-thin"
+});
+ 
+});
+})(jQuery);
+</script>
 </body>
 
 </html>
