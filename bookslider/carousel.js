@@ -38,25 +38,24 @@ function init() {
 
   var id, name, cost, tr;
 
-  function select() {
+  function select(evt) {
     if (this.classList.contains('sd')) {
       this.classList.remove('sd');
-      this.style.backgroundColor = 'transparent';
-      removeSelected();
+      this.style.backgroundColor = '#fff';
+      this.lastElementChild.innerHTML = 'Купить';
+      removeSelected(evt);
     } else {
-      this.style.backgroundColor = 'rgba(32, 178, 170, 0.36)';
-
+      this.style.backgroundColor = 'rgb(162, 230, 226)';
+      this.lastElementChild.innerHTML = 'Отменить';
       id = this.classList.value;
       id = id.charAt(id.length - 1);
 
       displaySelected();
       this.classList.add('sd');
     }
-
   }
   // создаются и помещаются в боди таблицы строка и две ячейки для названия книги и цены
   function displaySelected() {
-
     tr = document.createElement('tr');
     tr.setAttribute('id', id);
 
@@ -71,10 +70,11 @@ function init() {
     selectedMain.appendChild(tr);
 
     innerData();
-
+    
     if (selectedMain.childNodes.length !== 0) {
       selected.style.display = 'block';
-      console.log(selectedMain.childNodes);
+      
+      //console.log(selectedMain.childNodes);
     }
     summary();
   }
@@ -90,19 +90,22 @@ function init() {
     }
 
   }
+  
+  
 
   function summary() {
     var sumCostCell = document.getElementById('sum-cost');
     var sumDiscountCell = document.getElementById('sum-discount');
     var sumNoDiscountCell = document.getElementById('sum-no-discount');
 
-    var selectedItems = selectedMain.querySelectorAll('tr');
-    var selectedId = [];
+
+var selectedItems = selectedMain.querySelectorAll('tr');
     var sumCost = 0;
     var discount = 0;
     var cost = 0;
     var sumNoDiscount = 0;
     //создается массив с id строк, которые совпадают с порядковым номером товара (индексом массива) в файле с данными
+    var selectedId = [];
     for (var i = 0; i < selectedItems.length; i++) {
       selectedId[i] = parseInt(selectedItems[i].getAttribute('id'));
 
@@ -128,6 +131,7 @@ function init() {
       sumCost = +sumCost + cost;
       sumCost = sumCost.toFixed(2);
 
+      
     }
 
     sumCostCell.innerHTML = sumCost;
@@ -135,11 +139,24 @@ function init() {
     sumNoDiscountCell.innerHTML = sumNoDiscount;
   }
 
-//  function removeSelected() {
-//    for ()
-//      selectedMain.childNodes.getAttribute = this.classList.value.charAt()
-//
-//  }
+  function removeSelected(evt) {
+
+    var item = evt.target.parentElement.classList.value;
+    var id = item.charAt(item.length - 1);
+    id = +id;
+    var tr = selectedMain.querySelectorAll('tr');
+    for (var i = 0; i < tr.length; i++) {
+
+      var selectedItem = tr[i];
+      selectedItem = +selectedItem.getAttribute('id');
+      if (id == selectedItem) {
+        selectedMain.removeChild(tr[i]);
+        } else {
+        continue
+      }
+    }
+summary();
+  }
 }
 
 
