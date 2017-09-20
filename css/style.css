@@ -177,7 +177,6 @@ body {
   -ms-flex-direction: row;
       flex-direction: row;
   transition-duration: 0.2s;
-  border: 35px solid #e55e7b;
   border-radius: 20px;
   margin-bottom: 20px;
   /* &:hover {
@@ -277,7 +276,6 @@ body {
   display: block;
   transition-property: height;
   transition-duration: .5s;
-  border: 5px solid #e7ca6e;
   border-radius: 20px;
 }
 .detail--opened {

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="import" href="">
+  
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
@@ -24,13 +24,11 @@
     ga('send', 'pageview');
 
   </script>
-  <script src="/js/jquery-1.7.1.min.js" > </script>
-
-  <script src="scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+  
 </head>
 
 <body>
-  <div class="portfolio__header-group container">
+  <div id="container" class="portfolio__header-group container">
     <h1 class="portfolio__title">Портфолио</h1>
     
     
@@ -45,7 +43,7 @@
   </div>
 
 
-  <div class="portfolio__content container">
+  <div id="content" class="portfolio__content container">
     
     <div class="project">
       <h3 class="project__title">Gift-shop</h3>
@@ -189,17 +187,11 @@
   </div>
 
   <script src="portfolio.js"></script>
-  <script>
-(function($){
-$(window).load(function(){
- 
-$(".project__image").mCustomScrollbar({
-theme:"dark-thin"
-});
- 
-});
-})(jQuery);
-</script>
+  <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script type="text/babel" src="react.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.min.js"></script>
 </body>
 
 </html>
