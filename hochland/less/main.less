@@ -1,0 +1,50 @@
+.main::before {
+  content: '';
+ width: 30%;
+  height: 100vh;
+  position: absolute;
+  top: -45px;
+  right: 100%;
+  background-image: url('../img/bg-round-left.svg');
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.main::after {
+  content: '';
+  width: 30%;
+  height: 100vh;
+  position: absolute;
+  top: -45px;
+  left: 100%;
+  background-image: url('../img/bg-round-right.svg');
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.main {
+  text-align: center;
+  position: relative;
+}
+
+.main__title {
+  font-size: 36px;
+  margin-bottom: 55px;
+}
+
+.main__content {
+  display: none;
+}
+
+.main__content--active {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__nav {
+  margin-bottom: 20px;
+}
+
+.main__map {}
