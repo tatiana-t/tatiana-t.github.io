@@ -76,7 +76,7 @@ body {
       align-items: baseline;
 }
 .portfolio__title {
-  font-size: 56px;
+  font-size: 4em;
 }
 .portfolio__contacts a {
   transition-duration: 0.3s;
