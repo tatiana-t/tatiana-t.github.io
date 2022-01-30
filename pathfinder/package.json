@@ -1,7 +1,7 @@
 {
   "name": "pathfinder",
   "version": "0.1.0",
-  "homepage": "https://taitana-t.github.io/pathfinder",
+  "homepage": "https://taitana-t.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
