@@ -1,0 +1,29 @@
+.characteristics {
+  &__item {
+    display: flex;
+    padding: 6px 4px;
+    border-bottom: 1px solid #dbe1e3;
+    &:nth-child(odd) {
+      background-color: #eff3f5;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__title {
+    width: 130px;
+    //margin-right: a;
+    flex-grow: 1;
+  }
+  &__value {
+    width: 50px;
+    padding: 2px 4px;
+  }
+  &__mod {
+    width: 50px;
+    padding: 2px 4px;
+    border: 2px solid #e39b9b;
+    border-radius: 4px;
+    text-align: center;
+  }
+}
