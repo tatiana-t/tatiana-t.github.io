@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f01af000-72bb-498d-af30-895beb685ae0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.4d03b318.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.4d03b318.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/787.2036a371.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/787.2036a371.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.4f9d8b74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.4f9d8b74.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.4f9d8b74.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-brands-400.2285773e6b4b172f07d9.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-brands-400.23f19bb08961f37aaf69.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-brands-400.527940b104eb2ea366c8.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-brands-400.d878b0a6a1144760244f.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-regular-400.4689f52cc96215721344.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-regular-400.491974d108fe4002b2aa.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-regular-400.77206a6bb316fa0aded5.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-regular-400.7a3337626410ca2f4071.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-solid-900.1551f4f60c37af51121f.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-solid-900.9bbb245e67a133f6e486.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-solid-900.be9ee23c0c6390141475.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24O7j3RAHKuHDlW3Ia9zMAnfCYu" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\poire\git\tatiana-t\pathfinder\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\poire\git\tatiana-t\pathfinder\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\poire\git\tatiana-t\pathfinder" />
+      <recent name="C:\Users\poire\git\tatiana-t" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\poire\git\tatiana-t\pathfinder\src\components\ui" />
+      <recent name="C:\Users\poire\git\tatiana-t\pathfinder" />
+      <recent name="C:\Users\poire\git\tatiana-t\archive" />
+      <recent name="C:\Users\poire\git\tatiana-t" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f01af000-72bb-498d-af30-895beb685ae0" name="Changes" comment="" />
+      <created>1643489910944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643489910944</updated>
+      <workItem from="1643489912428" duration="6552000" />
+      <workItem from="1643496720175" duration="3715000" />
+      <workItem from="1643544036142" duration="176000" />
+      <workItem from="1643583060127" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
