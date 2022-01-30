@@ -1,0 +1,16 @@
+.app {
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  &__container {
+    min-width: 0;
+    padding: 12px 12px 12px 12px;
+  }
+  &__menu {
+    width: 30px;
+  }
+  &__section {
+    flex-grow: 0;
+    margin-bottom: 20px;
+  }
+}
