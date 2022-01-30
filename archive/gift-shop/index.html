@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gift Shop</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+  <header class="main-header">
+   <nav class="main-header__nav">
+   
+    <ul class="main-header__small-nav small-nav">
+      <li class="small-nav__item"><a href="">Sell</a></li>
+      <li class="small-nav__item"><a href="">Registry</a></li>
+      <li class="small-nav__item"><a href="">Community</a></li>
+      <li class="small-nav__item"><a href="">Blogs</a></li>
+      <li class="small-nav__item"><a href="">Mobile</a></li>
+      <li class="small-nav__item"><a href="">Gift Cards</a></li>
+    </ul>
+    <div class="main-header__copyright">
+      <img src="img/logo.png" width="150" alt="Gift Shop" class="main-header__logo">
+      <span class="main-header__copyright-text">copyright logo</span>
+    </div>
+    <ul class="main-header__profile-info profile-info">
+      <li class="profile-info__item"><a href="">Register</a></li>
+      <li class="profile-info__item profile-info__item--accent"><a href="">Sign In</a></li>
+      <li class="profile-info__item profile-info__item--whishlist"><a href="">Whishlist</a></li>
+      <li class="profile-info__item profile-info__item--cart profile-info__item--accent"><a href="">Cart</a></li>
+    </ul>
+
+
+    <!--  main-menu  -->
+
+<!--    <nav class="main-header__menu">-->
+      <ul class="main-header__list">
+        <li class="menu-item">Art
+          <ul class="menu-item__list">
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" height="76" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <p class="menu-item__desc">Lorem Ipsum is simply dummy text of the</p>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <a href="" class="menu-item__more">See All Items</a>
+          </ul>
+        </li>
+
+        <li class="menu-item">Home &amp; Living
+          <ul class="menu-item__list">
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" width="72" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <p class="menu-item__desc">Lorem Ipsum is simply dummy text of the</p>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <a href="" class="menu-item__more">See All Items</a>
+          </ul>
+        </li>
+        <li class="menu-item">Jewelry
+          <ul class="menu-item__list">
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" width="72" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <p class="menu-item__desc">Lorem Ipsum is simply dummy text of the</p>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <a href="" class="menu-item__more">See All Items</a>
+          </ul>
+        </li>
+        <li class="menu-item">Women
+          <ul class="menu-item__list">
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" width="72" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <p class="menu-item__desc">Lorem Ipsum is simply dummy text of the</p>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <a href="" class="menu-item__more">See All Items</a>
+          </ul>
+        </li>
+        <li class="menu-item">Men
+          <ul class="menu-item__list">
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" width="72" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <p class="menu-item__desc">Lorem Ipsum is simply dummy text of the</p>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <a href="" class="menu-item__more">See All Items</a>
+          </ul>
+        </li>
+        <li class="menu-item">Kids
+          <ul class="menu-item__list">
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" width="72" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <p class="menu-item__desc">Lorem Ipsum is simply dummy text of the</p>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <a href="" class="menu-item__more">See All Items</a>
+          </ul>
+        </li>
+        <li class="menu-item">Vintage
+          <ul class="menu-item__list">
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" width="72" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <p class="menu-item__desc">Lorem Ipsum is simply dummy text of the</p>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <a href="" class="menu-item__more">See All Items</a>
+          </ul>
+        </li>
+        <li class="menu-item">Weddings
+
+          <ul class="menu-item__list">
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" width="72" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <p class="menu-item__desc">Lorem Ipsum is simply dummy text of the</p>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <li class="menu-item__sub-item">
+              <img src="img/item.jpg" alt="item" class="menu-item__pic">
+              <h2 class="menu-item__title">Item Name Here</h2>
+              <div class="menu-item__desc">Lorem Ipsum is simply dummy text of the</div>
+              <a href="" class="menu-item__btn">More Details</a>
+            </li>
+
+            <a href="" class="menu-item__more">See All Items</a>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="">More</a></li>
+
+      </ul>
+<!--    </nav>-->
+    <!--  end main-menu  -->
+    <button class="main-header__btns main-header__btns--menu">Menu</button>
+   <button class="main-header__btns main-header__btns--catalog">Catalog</button>
+   <button class="main-header__btns main-header__btns--profile">Profile</button>
+    </nav>
+  </header>
+
+
+  <section class="promo">
+    
+    <div class="promo__item promo__item--left-top">
+     <picture class="promo__img-wrap">
+       <source media="(max-width: 480px)" srcset="img/men-mobile.jpg">
+       <img class="promo__pic" src="img/men.jpg" alt="Men's wear" >
+     </picture>
+      
+      <div class="promo-item__info">
+        <div class="promo-item__part">
+          <h2 class="promo-item__title">men's wear</h2>
+          <p class="promo-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem</p>
+        </div>
+        <p class="promo-item__accent">Lorem Ipsum is simply dummy text</p>
+      </div>
+      <div class="promo-item__btns action-btns action-btns--promo action-btns--men">
+        <a class="action-btns__button action-btns__name" href="#">Men's wear shop</a>
+        <a class="action-btns__button action-btns__gift" href="#">
+          <span class="action-btns__desc">Make a present</span>
+        </a>
+        <a class="action-btns__button action-btns__cart" href="#">
+          <span class="action-btns__desc">Add to cart</span>
+        </a>
+        <a class="action-btns__button action-btns__price" href="#">$99.00</a>
+      </div>
+    </div>
+
+    <div class="promo__item promo__item--right-top">
+     
+     <picture class="promo__img-wrap">
+       <source media="(max-width: 480px)" srcset="img/women-mobile.jpg">
+       <img class="promo__pic" src="img/women.jpg" alt="Men's wear" >
+     </picture>
+     
+      
+      <div class="promo-item__info">
+        <div class="promo-item__part">
+          <h2 class="promo-item__title">women's wear</h2>
+          <p class="promo-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </div>
+      </div>
+      <div class="promo-item__btns action-btns action-btns--promo action-btns--women">
+        <a class="action-btns__button action-btns__name" href="#">Women's wear shop</a>
+        <a class="action-btns__button action-btns__gift" href="#">
+          <span class="action-btns__desc">Make a present</span>
+        </a>
+        <a class="action-btns__button action-btns__cart" href="#">
+          <span class="action-btns__desc">Add to cart</span>
+        </a>
+        <a class="action-btns__button action-btns__price" href="#">$99.00</a>
+      </div>
+    </div>
+    
+    <div class="promo__item promo__item--right-mid">
+     
+     <picture class="promo__img-wrap">
+       <source media="(max-width: 480px)" srcset="img/kids-mobile.jpg">
+       <img class="promo__pic" src="img/kids.jpg" alt="Men's wear" >
+     </picture> 
+  
+      <div class="promo-item__info">
+        <div class="promo-item__part">
+          <h2 class="promo-item__title">kids' wear</h2>
+          <p class="promo-item__desc">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </div>
+      </div>
+      <div class="promo-item__btns action-btns action-btns--promo action-btns--kids">
+        <a class="action-btns__button action-btns__name" href="#">Baby shop</a>
+        <a class="action-btns__button action-btns__gift" href="#">
+          <span class="action-btns__desc">Make a present</span>
+        </a>
+        <a class="action-btns__button action-btns__cart" href="#">
+          <span class="action-btns__desc">Add to cart</span>
+        </a>
+        <a class="action-btns__button action-btns__price" href="#">$99.00</a>
+      </div>
+    </div>
+
+    <form class="promo__item promo__item--search">
+      <input class="promo__search-input" type="text" id="promo-item__search" name="promo-item__search" placeholder="Search you product here (e.g.:Silver diamond ring)">
+      <button class="promo-item__search-label" for="promo-item__search" type="submit"></button>
+    </form>
+
+    <div class="promo__item promo__item--left-bottom">
+     
+     <picture class="promo__img-wrap">
+       <source media="(max-width: 480px)" srcset="img/crafts-mobile.jpg">
+       <img class="promo__pic" src="img/crafts.jpg" alt="Men's wear" >
+     </picture> 
+     
+    
+      
+      <div class="promo-item__btns action-btns action-btns--promo action-btns--crafts">
+        <a class="action-btns__button action-btns__name" href="#">Crafts</a>
+        <a class="action-btns__button action-btns__gift" href="#">
+          <span class="action-btns__desc">Make a present</span>
+        </a>
+        <a class="action-btns__button action-btns__cart" href="#">
+          <span class="action-btns__desc">Add to cart</span>
+        </a>
+        <a class="action-btns__button action-btns__price" href="#">$99.00</a>
+      </div>
+    </div>
+
+    <div class="promo__item promo__item--right-bottom">
+     
+     <picture class="promo__img-wrap">
+       <source media="(max-width: 480px)" srcset="img/jewelry-mobile.jpg">
+       <img class="promo__pic" src="img/jewelry.jpg" alt="Men's wear" >
+     </picture> 
+     
+     
+      <div class="promo-item__info">
+        <h2 class="promo-item__title promo-item__part promo-item__title--jewelry">Jewelry</h2>
+        <div class="promo-item__more-btn"><a href="#"><span></span></a></div>
+      </div>
+    </div>
+    <button class="promo__button promo__button--prev"></button>
+    <button class="promo__button promo__button--next"></button>
+
+  </section>
+
+  <main class="main-content">
+    <!--article??-->
+    <section class="main-content__item main-content__item--new new">
+      <header class="main-content__header">
+        <h3 class="main-content__title">New Products</h3>
+        <div class="main-content__btns">
+          <button class="main-content__arrow main-content__arrow--left" href=""></button>
+          <button class="main-content__arrow main-content__arrow--right" href=""></button>
+        </div>
+      </header>
+      <div class="main-content__row">
+        <div class="new__item">
+          <img class="new__pic" src="img/new-bag.jpg" alt="Bag-shop">
+          <div class="action-btns">
+            <a class="action-btns__button action-btns__name" href="#">Bag-shop</a>
+            <a class="action-btns__button action-btns__gift" href="#">
+              <span class="action-btns__desc">Make a present</span>
+            </a>
+            <a class="action-btns__button action-btns__cart" href="#">
+              <span class="action-btns__desc">Add to cart</span>
+            </a>
+            <a class="action-btns__button action-btns__price" href="#">99.99$</a>
+          </div>
+        </div>
+        <div class="new__item">
+          <img class="new__pic" src="img/new-baby-shop.jpg" alt="Baby-shop">
+          <div class="action-btns ">
+            <a class="action-btns__button action-btns__name" href="#">Baby-shop</a>
+            <a class="action-btns__button action-btns__gift" href="#">
+              <span class="action-btns__desc">Make a present</span>
+            </a>
+            <a class="action-btns__button action-btns__cart" href="#">
+              <span class="action-btns__desc">Add to cart</span>
+            </a>
+            <a class="action-btns__button action-btns__price" href="#">99.99$</a>
+          </div>
+        </div>
+        <div class="new__item">
+          <img class="new__pic" src="img/new-watch.jpg" alt="Watch-shop">
+          <div class="action-btns">
+            <a class="action-btns__button action-btns__name" href="#">Watch-shop</a>
+            <a class="action-btns__button action-btns__gift" href="#">
+              <span class="action-btns__desc">Make a present</span>
+            </a>
+            <a class="action-btns__button action-btns__cart" href="#">
+              <span class="action-btns__desc">Add to cart</span>
+            </a>
+            <a class="action-btns__button action-btns__price" href="#">99.99$</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-content__item main-content__item--featured featured">
+      <header class="main-content__header">
+        <h3 class="main-content__title">Featured Products</h3>
+        <div class="main-content__btns">
+           <button class="main-content__arrow main-content__arrow--left" href=""></button>
+          <button class="main-content__arrow main-content__arrow--right" href=""></button>
+        </div>
+      </header>
+      <div class="main-content__row">
+        <article class="featured__item">
+          <img class="featured__pic" src="img/feature1.jpg" alt="Featured Dress 1" width="270">
+          <div class="featured__note featured__note--discount">20% OFF</div>
+          <div class="featured__info">
+            <div class="featured__line">
+              <h1 class="featured__title">Product Title here</h1>
+              <p class="featured__desc">Short Description here</p>
+            </div>
+            <div class="action-btns action-btns--featured">
+              <a class="action-btns__button action-btns__turn" href="#"></a>
+              <a class="action-btns__button action-btns__gift" href="#">
+                <!--   <span class="action-btns__desc">Make a present</span>-->
+              </a>
+              <a class="action-btns__button action-btns__cart" href="#">
+                <!-- <span class="action-btns__desc">Add to cart</span>-->
+              </a>
+              <a class="action-btns__button action-btns__price" href="#">$99.00</a>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="featured__item">
+          <img class="featured__pic" src="img/feature2.jpg" alt="Featured Dress 2">
+          <div class="featured__info">
+            <div class="featured__line">
+              <h1 class="featured__title">Product Title here</h1>
+              <p class="featured__desc">Short Description here</p>
+            </div>
+            <div class="action-btns action-btns--featured">
+              <a class="action-btns__button action-btns__turn" href="#"></a>
+              <a class="action-btns__button action-btns__gift" href="#">
+                <!--   <span class="action-btns__desc">Make a present</span>-->
+              </a>
+              <a class="action-btns__button action-btns__cart" href="#">
+                <!-- <span class="action-btns__desc">Add to cart</span>-->
+              </a>
+              <a class="action-btns__button action-btns__price" href="#">$99.00</a>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="featured__item featured__item--new">
+          <img class="featured__pic" src="img/feature3.jpg" alt="Featured Dress 3">
+          <div class="featured__note featured__note--new">New</div>
+          <div class="featured__info">
+            <div class="featured__line">
+              <h1 class="featured__title">Product Title here</h1>
+              <p class="featured__desc">Short Description here</p>
+            </div>
+            <div class="action-btns action-btns--featured">
+              <a class="action-btns__button action-btns__turn" href="#"></a>
+              <a class="action-btns__button action-btns__gift" href="#">
+                <!--   <span class="action-btns__desc">Make a present</span>-->
+              </a>
+              <a class="action-btns__button action-btns__cart" href="#">
+                <!-- <span class="action-btns__desc">Add to cart</span>-->
+              </a>
+              <a class="action-btns__button action-btns__price" href="#">$99.00</a>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="featured__item">
+          <img class="featured__pic" src="img/feature4.jpg" alt="Featured Dress 4">
+          <div class="featured__info">
+            <div class="featured__line">
+              <h1 class="featured__title">Product Title here</h1>
+              <p class="featured__desc">Short Description here</p>
+            </div>
+            <div class="action-btns action-btns--featured">
+              <a class="action-btns__button action-btns__turn" href="#"></a>
+              <a class="action-btns__button action-btns__gift" href="#">
+                <!--   <span class="action-btns__desc">Make a present</span>-->
+              </a>
+              <a class="action-btns__button action-btns__cart" href="#">
+                <!-- <span class="action-btns__desc">Add to cart</span>-->
+              </a>
+              <a class="action-btns__button action-btns__price" href="#">$99.00</a>
+            </div>
+
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="main-content__item main-content__item--about">
+      <header class="main-content__header">
+        <h3 class="main-content__title">Who We Are</h3>
+      </header>
+      <p class="about__info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <div class="main-content__row">
+        <div class="about__item about__item--choose">
+          Chose Products
+        </div>
+        <div class="about__item about__item--reg">
+          Register/<br>Login
+        </div>
+        <div class="about__item about__item--checkout">
+          Checkout
+        </div>
+      </div>
+      <button class="about__btn">Register Now</button>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="main-footer__menu">
+      <section class="main-footer__item">
+        <h2 class="main-footer__title">shopping with us</h2>
+        <ul class="main-footer__list">
+          <li class="main-footer__list-item"><a href="#">why shop with us?</a></li>
+          <li class="main-footer__list-item"><a href="#">how it works</a></li>
+          <li class="main-footer__list-item"><a href="#">delivery</a></li>
+          <li class="main-footer__list-item"><a href="#">returns</a></li>
+          <li class="main-footer__list-item"><a href="#">where's my order</a></li>
+          <li class="main-footer__list-item"><a href="#">contact &amp; help</a></li>
+          <li class="main-footer__list-item"><a href="#">wedding list</a></li>
+          <li class="main-footer__list-item"><a href="#">wish lists</a></li>
+          <li class="main-footer__list-item"><a href="#">gift vouchers</a></li>
+        </ul>
+      </section>
+      <section class="main-footer__item">
+        <h2 class="main-footer__title">about us</h2>
+        <ul class="main-footer__list">
+          <li class="main-footer__list-item"><a href="#">our story</a></li>
+          <li class="main-footer__list-item"><a href="#">customer contact</a></li>
+          <li class="main-footer__list-item"><a href="#">awards</a></li>
+          <li class="main-footer__list-item"><a href="#">press centre</a></li>
+          <li class="main-footer__list-item"><a href="#">work with us</a></li>
+          <li class="main-footer__list-item"><a href="#">terms &amp; conditions</a></li>
+          <li class="main-footer__list-item"><a href="#">privacy &amp; cookies</a></li>
+        </ul>
+      </section>
+      <section class="main-footer__item">
+        <h2 class="main-footer__title">selling with us</h2>
+        <ul class="main-footer__list">
+          <li class="main-footer__list-item"><a href="#css/">why join?</a></li>
+          <li class="main-footer__list-item"><a href="#">faqs</a></li>
+          <li class="main-footer__list-item"><a href="#">apply to sell with us</a></li>
+          <li class="main-footer__list-item"><a href="#">affiliates</a></li>
+        </ul>
+      </section>
+      <div class="main-footer__col-wrap">
+        <section class="main-footer__item">
+          <h2 class="main-footer__title">signup newsletter</h2>
+          <form action="" class="main-footer__subscribe">
+            <input class="main-footer__input" type="email" placeholder="e.g.: abc@domain.com">
+
+            <input class="main-footer__btn btn" type="submit" id="main-footer__subscribe" value="subcribe now">
+
+          </form>
+        </section>
+        <section class="main-footer__item main-footer__item--social-btns">
+          <h2 class="main-footer__title">keep in touch</h2>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--rss">rss</a>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--fb">facebook</a>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--tw">twitter</a>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--flickr">flickr</a>
+          <a href="" class="main-footer__social-btn main-footer__social-btn--google">google</a>
+        </section>
+      </div>
+    </div>
+    <div class="main-footer__copyright">
+      <span class="main-footer__copyright-info">Copyright © 2014 Gift Shop,  All right reserved</span>
+      <span class="main-footer__copyright-design">Designed by
+        <a class="main-footer__copyright-design-author" href="#">Amysxain</a>
+      </span>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

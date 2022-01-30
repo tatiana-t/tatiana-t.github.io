@@ -1,0 +1,43 @@
+div,
+body,
+html,
+p, input, label, form, button,
+figure, figcapture,
+nav, ul, li, 
+h1, h2, h3, h4,
+main, header, aside, section, footer, picture {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button, input {
+  &:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline: none;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+/* li {
+  display: inline-block;
+  font-size: 0;
+} 
+figure {
+  font-size: 0;
+}*/
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: Futura;
+  src: url(../fonts/FuturisCyrillic.woff) format('woff'),
+    url(../fonts/futuris-cyrillic.woff2) format('woff2'),
+}

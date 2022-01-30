@@ -1,0 +1,50 @@
+.invite {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #9aa5a9;
+  padding: 0;
+  margin-top: 40px;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .invite__title {
+    margin-bottom: 25px;
+    font-family: 'HK Grotesk Light';
+  }
+  .invite__text {
+    margin-bottom: 50px;
+  }
+}
+.invite__input {
+  background-color: transparent;
+  border: 2px solid #9aa5a9;
+  margin-bottom: 20px;
+  width: 360px;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: inherit;
+}
+@media screen and (max-width: 780px) {
+  .invite {
+    width: 360px;
+    justify-content: stretch;
+  }
+  .invite__title {
+    font-size: 24px;
+  }
+  .invite__input {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .invite__input {
+    width: 280px;
+  }
+  .invite {
+    width: 280px;
+  }
+}

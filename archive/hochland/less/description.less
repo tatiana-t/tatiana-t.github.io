@@ -1,0 +1,201 @@
+.description {
+  display: none;
+}
+
+.description--active {
+  display: block;
+  width: 300px;
+  font-size: 0;
+  font-family: Open Sans, sans-serif;
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.description__item {
+  margin-bottom: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+  max-height: 152px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.description__item--heimenkirch {
+  background-image: url('../Links/Luftaufnahme_Heimenkirch_1_rdax_800x629.png');
+}
+
+.description__item--schongau {
+  background-image: url('../Links/Luftaufnahme_Schongau_rdax_800x612.png');
+}
+
+.description__item--oberroighte {
+  background-image: url('../Links/german-oberroighte.jpg');
+}
+
+.description__item--dieu-sur-maace {
+  background-image: url('../Links/France_Dieue_plant_1800_rdax_800x600.jpg');
+}
+
+.description__item--barcelona {
+  background-image: url('../Links/spain-barcelona.jpg');
+
+}
+
+.description__item--sigishoara {
+  background-image: url('../Links/Romania_Sighisoara_aerial_image_1800_rdax_800x600.jpg');
+}
+
+.description__item--bucharest {
+  background-image: url('../Links/Romania_Sighisoara_aerial_image_1800_rdax_800x600.jpg');
+}
+.description__item--sovata {
+  background-image: url('../Links/Romania_Sighisoara_plant__image_1800_rdax_800x600.jpg');
+}
+.description__item--kazemej {
+  background-image: url('../Links/Poland_Kazmierz_Aerial_image_1800_rdax_800x532.jpg');
+}
+.description__item--vengrov {
+   background-image: url('../Links/poland-vengrov.jpg');
+}
+.description__item--moscow {
+  background-image: url('../Links/Russland_Raos_aerial_image_1800_rdax_800x600.jpg');
+}
+.description__item--prohorovka {
+  background-image: url('../Links/russia-prohorovka.jpg');
+  background-position: -20px -10px;
+}
+.description__item--kasa-grande {
+  background-image: url('../Links/arizona.jpg');
+}
+
+.description__item--enosbourg {
+  background-image: url('../Links/vermont.jpg');
+}
+
+.description__item--hartland {
+  background-image: url('../Links/viskonsin.jpg'); // background-position: -60px -10px;
+}
+
+.description__item--linkoln-park {
+  background-image: url('../Links/new_jersy.jpg');
+  background-position: -85px 0;
+}
+.description__item--beach {
+  background-image: url('../Links/vermont.jpg');
+}
+
+.description__item--melbourn {
+  background-image: url('../Links/melbrun.jpg');
+
+  background-position: -20px 0;
+  .description__title {
+    &::after {
+      background-image: url('../img/flag-australia.jpg');
+    }
+  }
+}
+
+.description__pic {
+  height: 150px;
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+
+.description__title {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 100;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #4C6C9C;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 41px;
+    height: 26px;
+    background-size: contain;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+}
+
+.description__content {
+  max-height: 152px;
+  margin-left: 160px;
+}
+
+.description__title--german {
+  &::before {
+    background-image: url(../img/flag-german.jpg);
+  }
+}
+
+.description__title--france {
+  &::before {
+    background-image: url(../img/flag-france.svg);
+  }
+}
+
+.description__title--spain {
+  &::before {
+    background-image: url(../img/flag-spain-04.svg);
+  }
+}
+
+.description__title--romania {
+  &::before {
+    background-image: url(../img/flag-romania-05.svg);
+  }
+}
+.description__title--poland {
+   &::before {
+    background-image: url(../img/flag-poland-06.svg);
+  }
+}
+.description__title--russia {
+  &::before {
+    background-image: url(../img/flag-russia.svg);
+  }
+}
+.description__title--america {
+  &::before {
+    background-image: url(../img/flag-USA-02.jpg);
+  }
+}
+
+.description__title--australia {
+  &::before {
+    background-image: url(../img/flag-australia.jpg);
+  }
+}
+
+.description__subtitle {
+  font-size: 13px;
+  text-align: left;
+  padding-left: 35px;
+  display: block;
+
+  background-color: #fff;
+  position: relative;
+
+
+  padding-top: 42px;
+  padding-bottom: 52px; //z-index: 3;
+  //width: 140px;
+}
