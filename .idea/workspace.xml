@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f01af000-72bb-498d-af30-895beb685ae0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.4d03b318.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.4d03b318.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/787.2036a371.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/787.2036a371.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/main.4f9d8b74.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/main.4f9d8b74.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/main.4f9d8b74.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-brands-400.2285773e6b4b172f07d9.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-brands-400.23f19bb08961f37aaf69.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-brands-400.527940b104eb2ea366c8.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-brands-400.d878b0a6a1144760244f.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-regular-400.4689f52cc96215721344.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-regular-400.491974d108fe4002b2aa.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-regular-400.77206a6bb316fa0aded5.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-regular-400.7a3337626410ca2f4071.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-solid-900.1551f4f60c37af51121f.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-solid-900.9bbb245e67a133f6e486.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-solid-900.be9ee23c0c6390141475.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tatiana-t.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/bookslider/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/bookslider/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/bookslider/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/bookslider/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/bookslider/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/bookslider/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/fonts/FuturisCyrillic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/fonts/futuris-cyrillic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/fonts/futuris-cyrillic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/fonts/onlinefontconverter.com.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/fonts/onlinefontconverter.com/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/fonts/Aparajita.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/fonts/Aparajita_Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/fonts/Lato.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/checkout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/checkout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/chose-product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/chose-product.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/crafts-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/crafts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/feature1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/feature2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/feature3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/feature4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/featured1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/featured3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-cart-grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-flickr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-gift-grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-gift.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-rss.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/icon-twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/item.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/jewelry-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/jewelry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/kids-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/kids.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/men-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/men.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/men@0,5x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/new-baby-shop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/new-bag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/new-watch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/register.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/register.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/women-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/img/women.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/about.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/action-btns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/featured.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/fonts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/global.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/main-content.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/main-footer.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/main-header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/menu-item.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/new.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/profile-info.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/promo.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/reset.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/small-nav.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/less/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/gift-shop/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/HeliosUltraCompressedC.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/HeliosUltraCompressedC.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/HeliosUltraCompressedC.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-ExtraBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Extrabold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Semibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Semibold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans-Semibold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/OpenSans.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/RodeoC-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/RodeoC-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/RodeoC-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/WINGDING.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/arcive.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/onlinefontconverter.com.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Fonts/onlinefontconverter.com/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/EMASLogox2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Erweiterung_Prokhorovka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/FH_Kiel_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Foto_FACHADA_2016_rdax_800x237.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/France_Dieue_plant_1800_rdax_800x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Frischkaeserei1_rdax_800x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/IHK-Ausbildungsbetrieb-2017-Schwaben.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Luftaufnahme_Heimenkirch_1_rdax_800x629.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Luftaufnahme_Schongau_rdax_800x612.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Poland_Kazmierz_Aerial_image_1800_rdax_800x532.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Romania_Sighisoara_aerial_image_1800_rdax_800x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Romania_Sighisoara_plant__image_1800_rdax_800x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/Russland_Raos_aerial_image_1800_rdax_800x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/arizona.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/certificacion-brc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/german-oberroighte.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/ifs-food_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/inno.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/iso14001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/melbrun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/neu_FCS_Siegel_TOP_NatArbeitgeber_2017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/new_jersy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/poland-vengrov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/qs-pruef-verlauf-4c-eng-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/russia-prohorovka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/sertifikacija-ohsas-18001-2007-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/shutterstock_257449201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/shutterstock_623473742.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/spain-barcelona.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/vermont.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/Links/viskonsin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/geography.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/america-arizona.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/america-new-jersey.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/america-vermont.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/america-wisconsin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/bg-round-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/bg-round-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/bg-round-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/bg-round-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/flag-USA-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/flag-australia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/flag-france.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/flag-german.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/flag-poland-06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/flag-romania-05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/flag-russia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/flag-spain-04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/img/melbourn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/less/description.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/less/fonts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/less/global.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/less/main.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/less/map.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/less/nav.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/less/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/map-australia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/map-europ-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/map-europ.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/map-north-america.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/hochland/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/giftshop-desktop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/giftshop-mobile-less.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/giftshop-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/giftshop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/github-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/industrial-desktop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/industrial-mobile-less.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/industrial-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/industrial.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/sedona-desktop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/sedona-mobile-less.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/sedona-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/sedona.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/sigxak-desktop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/sigxak-mobile-less.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/sigxak-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/img/sigxak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/fonts/HKGrotesk-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/fonts/HKGrotesk-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/fonts/LeagueSpartan-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/fonts/LeagueSpartan-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/Beoplay-A1-product-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/Beoplay-A1-product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/DR-II-product-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/DR-II-product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/Gina-product-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/Gina-product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/Leica-MP-product-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/Leica-MP-product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/Molekule-product-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/Molekule-product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/P9-Signature-product-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/P9-Signature-product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/icon-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/kikstarter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/button.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/fonts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/global.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/invite.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/item.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/layout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/main-footer.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/main-header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/reset.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/less/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/industrial/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/less/detail.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/less/portfolio.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/less/project.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/less/reset.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/less/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/portfolio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/css/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/fonts/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/fonts/ptsans.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/fonts/ptsans.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/fonts/ptsansbold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/fonts/ptsansbold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-back-desktop@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-back-desktop@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-back-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-back-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-back-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-back-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-intro-triangle-desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-intro-triangle-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-intro-triangle-tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-intro-triangle-triple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-map-desktop@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-map-desktop@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-map-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-map-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-map-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-map-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/bg-triangle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/htmlacademy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/htmlacademy.svgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-burger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-cross.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-gift.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-house.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-like-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-like.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-mail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-map-marker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-tick-active.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-tick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-video-fullscreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-video-replay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-video-subtitles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/icon-youtube.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/logo-htmlacademy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/logo-sedona-desktop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/logo-sedona-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/logo-sedona-tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-1-desktop@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-1-desktop@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-1-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-1-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-1-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-1-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-2-desktop@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-2-desktop@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-2-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-2-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-2-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-2-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-3-desktop@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-3-desktop@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-3-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-3-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-3-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-3-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-4-desktop@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-4-desktop@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-4-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-4-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-4-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-4-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-bridge-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-bridge-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-bridge-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-bridge-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-bridge@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-bridge@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-city-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-city-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-city-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-city-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-city@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/photo-city@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/text-sedona-index.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/text-sedona.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/video-desktop@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/video-desktop@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/video-mobile@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/video-mobile@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/video-tablet@1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/img/video-tablet@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/js/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/js/picturefill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/blocks/btn.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/blocks/controls.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/blocks/form.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/blocks/item.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/blocks/main-menu.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/blocks/page-footer.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/blocks/page-head.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/blocks/photo-item.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/cssreset.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/global/body.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/global/fonts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/global/page-content.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/mixin.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sedona/photo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/blog-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/blog-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/blog-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/blog-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/blog-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/blog-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/blog-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/blog-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/btn-fb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/btn-g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/btn-in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/btn-tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/header-main-pic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/people-btn-fb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/people-btn-in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/people-btn-tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/people-btn-v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-1.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/portfolio-app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/services-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/services-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/services-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/img/services-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/sigxak.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/sigxak/sigxak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/test/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/test/math-task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/test/math-task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/test/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/test/task-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/pathfinder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pathfinder/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/prettier.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/cantrips/Cantrips.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/cantrips/cantrips.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/cantrips/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/characteristics/Characteristics.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/characteristics/characeristics.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/characteristics/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/menu/Menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/menu/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/menu/menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/skills/Skills.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/skills/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/skills/skills.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/ui/infoBlock/InfoBlock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/ui/infoBlock/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/components/ui/infoBlock/info-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/data.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/styles/fontawesome/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/src/styles/fontawesome/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathfinder/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24O7j3RAHKuHDlW3Ia9zMAnfCYu" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\poire\git\tatiana-t\pathfinder\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\poire\git\tatiana-t\pathfinder\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\poire\git\tatiana-t\pathfinder" />
+      <recent name="C:\Users\poire\git\tatiana-t" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\poire\git\tatiana-t\pathfinder\src\components\ui" />
+      <recent name="C:\Users\poire\git\tatiana-t\pathfinder" />
+      <recent name="C:\Users\poire\git\tatiana-t\archive" />
+      <recent name="C:\Users\poire\git\tatiana-t" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f01af000-72bb-498d-af30-895beb685ae0" name="Changes" comment="" />
+      <created>1643489910944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643489910944</updated>
+      <workItem from="1643489912428" duration="6552000" />
+      <workItem from="1643496720175" duration="3715000" />
+      <workItem from="1643544036142" duration="176000" />
+      <workItem from="1643583060127" duration="161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
