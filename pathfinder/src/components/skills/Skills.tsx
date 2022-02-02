@@ -17,14 +17,15 @@ class Skills extends PureComponent<Props> {
             return (
               <div className='skills__item' key={item.title}>
                 <span className='skills__title'>{item.title}</span>
-                <span className='skills__block'>{item.value} =</span>
+
                 <span className='skills__block'>
                   <span className='skills__block-title'>{item.characteristics}</span>
                   <span className='skills__block-value'>{characteristic?.mod}</span></span>
                 <span className='skills__block'>
                   <span className='skills__block-title'>Умение</span>
                   <span className='skills__block-value'>{item.proficiency}</span>
-                </span>
+                </span>=
+                  <span className='skills__block skills__block_mod'>{item.value} </span>
               </div>
             );
           })}

@@ -4,27 +4,27 @@ import './menu.scss';
 const menuConfig = [
   {
     title: 'Характеристики',
-    anchor: 'abilities',
+    id: 'abilities',
     icon: 'fas fa-eye',
   },
   {
     title: 'Испытания',
-    anchor: 'savingThrows',
+    id: 'savingThrows',
     icon: 'fab fa-accessible-icon',
   },
   {
     title: 'Внимание',
-    anchor: 'attention',
+    id: 'attention',
     icon: 'fas fa-broadcast-tower',
   },
   {
     title: 'Навыки',
-    anchor: 'skills',
+    id: 'skills',
     icon: 'fas fa-broadcast-tower',
   },
   {
     title: 'Фокусы',
-    anchor: 'cantrips',
+    id: 'cantrips',
     icon: 'fas fa-broadcast-tower',
   },
 ];
@@ -35,9 +35,9 @@ class Menu extends PureComponent {
         <ul className="menu__list">
           {menuConfig.map((item) => {
             return (
-              <li className="menu__item">
+              <li className="menu__item" key={item.id}>
                 <a
-                  href={`#${item.anchor}`}
+                  href={`#${item.id}`}
                   className="menu__link"
                   title={item.title}
                 >
