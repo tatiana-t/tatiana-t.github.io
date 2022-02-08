@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pathfinder/static/css/main.75d70b93.css",
-    "main.js": "/pathfinder/static/js/main.7065f188.js",
+    "main.css": "/pathfinder/static/css/main.d8c21c50.css",
+    "main.js": "/pathfinder/static/js/main.2b633445.js",
     "static/js/787.2036a371.chunk.js": "/pathfinder/static/js/787.2036a371.chunk.js",
     "static/media/fa-solid-900.svg": "/pathfinder/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/pathfinder/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -19,12 +19,12 @@
     "static/media/fa-regular-400.woff": "/pathfinder/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/pathfinder/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/pathfinder/index.html",
-    "main.75d70b93.css.map": "/pathfinder/static/css/main.75d70b93.css.map",
-    "main.7065f188.js.map": "/pathfinder/static/js/main.7065f188.js.map",
+    "main.d8c21c50.css.map": "/pathfinder/static/css/main.d8c21c50.css.map",
+    "main.2b633445.js.map": "/pathfinder/static/js/main.2b633445.js.map",
     "787.2036a371.chunk.js.map": "/pathfinder/static/js/787.2036a371.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75d70b93.css",
-    "static/js/main.7065f188.js"
+    "static/css/main.d8c21c50.css",
+    "static/js/main.2b633445.js"
   ]
 }
