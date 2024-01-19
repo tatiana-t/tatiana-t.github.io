@@ -1,0 +1,61 @@
+@import "/src/styles/variables.scss";
+
+.comment-item {
+    padding-left: 88px;
+    padding-top: 12px;
+    position: relative;
+    margin-bottom: 32px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+    &__col {
+        max-width: 70%;
+    }
+    &__avatar {
+        width: 68px;
+        height: 68px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+
+        background-color: rgba(255, 255, 255, 0.3);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &__name {
+        margin-bottom: 4px;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__date {
+        color: $subtext-color;
+    }
+    &__text {
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: $beakpoint-mobile) {
+    .comment-item {
+        padding-left: 60px;
+        padding-top: 2px;
+        &__header {
+            margin-bottom: 8px;
+        }
+        &__avatar {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

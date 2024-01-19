@@ -1,0 +1,47 @@
+@import "src/styles/variables.scss";
+
+.ui-like {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+    &__field {
+        display: none;
+    }
+    &::before {
+        content: "";
+        width: 22px;
+        height: 22px;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("/assets/icons/like-empty.svg");
+        background-repeat: no-repeat;
+        background-size: 18px 16px;
+        background-position: center;
+    }
+    &_liked::before {
+        background-image: url("/assets/icons/like-filled.svg");
+    }
+    &_disabled {
+        cursor: default;
+    }
+    &_disabled::before {
+        background-image: url("/assets/icons/like-disabled.svg");
+    }
+    &__text {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: $beakpoint-mobile) {
+    .ui-like {
+        font-size: 14px;
+        &::before {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

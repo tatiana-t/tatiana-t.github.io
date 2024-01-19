@@ -1,0 +1,27 @@
+@import "src/styles/variables.scss";
+
+.ui-button {
+    min-width: 234px;
+    padding: 9px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: $button-color;
+    cursor: pointer;
+    &_disabled {
+        opacity: 0.6;
+        cursor: default;
+    }
+    &:not(.ui-button_disabled):hover {
+        filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.3));
+    }
+    &:not(.ui-button_disabled):active {
+        background-color: $button-darken-color;
+        filter: none;
+    }
+    &__loader {
+        display: block;
+        margin: 0 auto;
+        height: 18px;
+    }
+}
